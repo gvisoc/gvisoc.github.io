@@ -1,0 +1,14 @@
+---
+layout: page
+---
+<p>Articles filed under "{{ page.category }}"</p>
+{% assign sortedPosts = site.categories[page.category] | reversed: 'date' %}
+<ul>
+{% for post in sortedPosts %}
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <li>{{ post.date | date: date_format }}:
+    <a href="{{ post.url | absolute_url }}">
+      {{ post.title }}
+    </a></li>
+{% endfor %}
+</ul>

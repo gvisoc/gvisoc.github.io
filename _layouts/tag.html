@@ -1,0 +1,14 @@
+---
+layout: page
+---
+<p>Articles tagged with #{{ page.tag }}</p>
+{% assign sortedPosts = site.tags[page.tag] | reversed: 'date' %}
+<ul>
+{% for post in site.tags[page.tag] %}
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <li>{{ post.date | date: date_format }}:
+    <a href="{{ post.url | absolute_url }}">
+      {{ post.title }}
+    </a></li>
+{% endfor %}
+</ul>
