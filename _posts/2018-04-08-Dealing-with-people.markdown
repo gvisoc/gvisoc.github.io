@@ -6,6 +6,8 @@ comments: true
 categories:
   - "people"
   - "personal"
+tags:
+  - management
 excerpt_separator: <!--more-->
 ---
 Dealing with people is hard.
