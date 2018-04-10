@@ -11,7 +11,7 @@ tags:
   - TheTag
 excerpt_separator: <!--more-->
 ---
-This is the typical post to get things started. It will disappear soon. This is the {{ jekyll.environment}} environment for this website, and the Disqus shortname is {{ site.disqus.shortname }}. The URL for this page is {{ page.url }}.
+This is the typical post to get things started. It will disappear soon. This is the {{ jekyll.environment}} environment for this website, and the Disqus shortname is {{ site.disqus.shortname }}. The URL for this page is {{ page.url | absolute_url }}.
 <!--more-->
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
