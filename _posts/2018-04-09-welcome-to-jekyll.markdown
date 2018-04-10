@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to this blog"
 date:   2018-04-09 11:18:29 +1000
-comments: true
+comments: "true"
 categories:
   - "personal"
   - "hands on"
