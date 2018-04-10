@@ -26,7 +26,8 @@ github_username:  gvisoc
 author: Gabriel Viso Carrera
 show_excerpts: true
 timezone: Australia/Sydney
-disqus.shortname: gvisoc
+disqus:
+  shortname: gvisoc
 collections:
   category:
     output: true
