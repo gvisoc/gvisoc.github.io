@@ -2,7 +2,7 @@
 layout: post
 title:  "Dealing with people is hard"
 date:   2018-04-08 22:13:00 +1000
-comments: "true"
+comments: true
 categories:
   - "people"
   - "personal"
