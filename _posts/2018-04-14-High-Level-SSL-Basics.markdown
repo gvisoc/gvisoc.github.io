@@ -11,7 +11,7 @@ tags:
   - HTTPS
 excerpt_separator: <!--more-->
 ---
-This is the first article of a series that I plan to write on SSL (Secure Socket Layer), from a developer perspective. That is to say, as a person to use SSL in his programs, not as a security expert / engineer / insider. I write these post as I become aware of SSL, so some inaccuracies can be expected: it is something I haven't had to personally apply at work for almost all my career, regardless how surprising that can be. One way or another, I decided to dig into the details once and for all, and write down my progresses.
+This is the first article of a series that I plan to write on SSL (Secure Socket Layer), from a developer perspective. That is to say, as a person to use SSL in her or his programs, not as a security expert / engineer / insider. I write these post as I become aware of SSL, so some inaccuracies can be expected: it is something I haven't had to personally apply at work for almost all my career, regardless how surprising that can be. One way or another, I decided to dig into the details once and for all, and write down my progresses.
 
 This first article is about how does SSL work from a high level perspective. No code, just a bit of theory... the least of it to later understand what the code does.
 
