@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "High Level SSL Basics"
+title:  "High Level SSL/TSL Basics"
 date:   2018-04-14 12:10:00 +1000
 comments: "true"
-published: "true"
+published: "false"
 categories:
   - "communications"
 tags:
@@ -11,7 +11,7 @@ tags:
   - HTTPS
 excerpt_separator: <!--more-->
 ---
-This is the first article of a series that I plan to write on SSL (Secure Sockets Layer), from a developer perspective. That is to say, as a person to use SSL in her or his programs, not as a security expert / engineer / insider. I write these post as I become aware of SSL, so some inaccuracies can be expected: it is something I haven't had to personally apply at work for almost all my career, regardless how surprising that can be. One way or another, I decided to dig into the details once and for all, and write down my progresses.
+This is the first article of a series that I plan to write on SSL (Secure Sockets Layer), and its sucessor, TLS (Transport Layer Security) from a developer perspective. That is to say, as a person to use SSL in her or his programs, not as a security expert / engineer / insider. I write these post as I become aware of SSL/TLS, so some inaccuracies can be expected: it is something I haven't had to personally apply at work for almost all my career, regardless how surprising that can be. One way or another, I decided to dig into the details once and for all, and write down my progresses.
 
 This first article is about how does SSL work from a high level perspective. No code, just a bit of theory... the least of it to later understand what the code does.
 
@@ -19,16 +19,16 @@ Do not expect any regularity in these publications!
 <!--more-->
 
 ## The problem: secure the information transport
-The problem that SSL has to solve is a secure communication between two systems, securing the information transport level. That is, SSL secures TCP when we talk about the internet.
+The problem that SSL/TSL has to solve is a secure communication between two systems, securing the information transport level. That is, SSL/TSL secures TCP when we talk about the internet.
 
-Upfront, SSL is not about human users, or about specific applications, but about applications as generic *systems*: browsers talking to servers, e-mail clients talking to servers, servers talking to each other. In essence, there is a sender system that has to communicate information to a receiving system, and most likely vice versa, regardless the users of those systems and regardless for what purpose (specific application).
+Upfront, SSL/TSL is not about human users, or about specific applications, but about applications as generic *systems*: browsers talking to servers, e-mail clients talking to servers, servers talking to each other. In essence, there is a sender system that has to communicate information to a receiving system, and most likely vice versa, regardless the users of those systems and regardless for what purpose (specific application).
 
 It's about programs running on machines, not about you and me in principle: although one can issue certificates to people, that is less common than SSL between two servers or between a server and a browser. Furthermore, that protocol would be at an application level, not at a transport level, and for authentication purposes rather than end to end encryption as that would be provided by SSL at the transport layer.
 
 You can use SSL to transport the data of any application over the network: e-mail, web, a secure messaging application that you and me could develop..., every program that uses transport *sockets*.
 
 ## Asymmetric Encryption
-SSL uses **Asymmetric Encryption** to secure the information. In these kind of schemas, each counterpart has a Cryptographic Certificate made of two parts: the Public Key (PK) and the Secret Key (SK). This second one is often referred to as Private Key or Private Part of the Certificate, but that would yield the same or a very similar acronym ("PK" or "PP"), so I prefer the first (SK). These two keys are uniquely bonded to each other thanks to the process of the Certificate generation.
+SSL and TLS use **Asymmetric Encryption** to secure the information. In these kind of schemas, each counterpart has a Cryptographic Certificate made of two parts: the Public Key (PK) and the Secret Key (SK). This second one is often referred to as Private Key or Private Part of the Certificate, but that would yield the same or a very similar acronym ("PK" or "PP"), so I prefer the first (SK). These two keys are uniquely bonded to each other thanks to the process of the Certificate generation.
 
 When we use this to communicate, the encryption works as follows:
 
@@ -43,7 +43,7 @@ The other way around is the same:
 * The same as Bob, *anyone can send encrypted messages to Alice* using *PKA*
 * That way, only Alice will be able to read the message by using her SK (*SKA*) to decrypt it.
 
-In SSL, Alice and Bob are two systems. They can be a browser and a server, or any two general, independent systems that interchange information: the point is that both of them have a Certificate and they use it to encrypt the communication as mentioned.
+In SSL and TLS, Alice and Bob are two systems. They can be a browser and a server, or any two general, independent systems that interchange information: the point is that both of them have a Certificate and they use it to encrypt the communication as mentioned.
 
 ## Trusting Certificates: Certification Authorities and Cryptographic Signature
 One question one can have after reading the last section is:
