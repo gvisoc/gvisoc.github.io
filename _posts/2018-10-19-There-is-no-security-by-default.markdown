@@ -13,6 +13,8 @@ excerpt_separator: <!--more-->
 ---
 *Security and safety by default* are things that many people claim that technology should provide, some sort of baseline requirement for any digital product or electronic device. I profoundly believe that such a statement is naive and unrealistic. It is merely an excuse to avoid our own responsibilities. We have not been succesful when it comes to provide security and safety by default in anything, no matter how old and established is the practice or the objects we designed, so, how could we pretend to make something that is not even one hundred years old, secure or safe by default?
 
+<!--more-->
+
 In the first place, **nothing in life is safe or secure by default**. Neither the natural products that have been consumed by the human kind since hundreds of thousandas of years ago, nor the arficial inventions that have around since the dawn of civilisation. Let us see some examples:
 
 1. You can be killed even by something as simple and harmess-looking as an edible nut, if you were alergic. And nuts have being consumed since hundreds of thousands of years ago. But, sometimes, someone *turns* alergic to nuts, that is, *develops an alergic reaction*, for whatever reason, to a nut that maybe he or she has been eating for years. And a meal ends up in the hospital. If not worse.
