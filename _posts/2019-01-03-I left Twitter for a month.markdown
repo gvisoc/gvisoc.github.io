@@ -14,6 +14,7 @@ I've been using Twitter for about 11 years, since September 2007. Through all th
 
 It was the beginning of last November when I realised that I had developed a mechanic habit of browsing Twitter blindlessly, mindlessly and meaninglessly, almost as an act of reflex. I was scrolling through my timelne while literally daydreaming. After that moment of realisation, I decided to stay away from it for a month.
 <!--more-->
+
 I uninstalled the app from all my devices, deleted all the bookmark to it from all my browsers in all my computers, I logged out everywhere and I deleted all the cookies to kill any remaining rogue sessions. I also deleted it from my search and browser histories to make any suggestion disappear from the address bars. I wanted to make the access very difficult.
 
 At this point I have to say that it was difficult to not click any tweet link in my Whatsapp and Telegram groups, but in a couple of days many of my friends supported my mission and refrained to share (so many) tweets.  
