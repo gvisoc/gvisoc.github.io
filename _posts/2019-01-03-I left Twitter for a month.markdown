@@ -23,6 +23,6 @@ At the beginning it was very hard, as I was craving Twitter automatically, all t
 
 The last week of the month was specially difficult as I was so keen to get back to Twitter. But it was the right way: I was feeling that I could beat the purpose of that detox, and the last week was not necessary. Still, I stood against that and I made the whole month.
 
-After all that, I got back to twitter and I'm proud to say that my return is going quite well: my Iwitter time is much more *intentional* and I often only open twitter when I have something to tweet, not just to scroll down while daydreaming. 
+After all that, I got back to twitter and I'm proud to say that my return is going quite well: my Twitter time is much more *intentional* and I often only open twitter when I have something to tweet, not just to scroll down while daydreaming. 
 
 If you feel that any social media gets too much attention from you, considering an unplugged month. It works.
