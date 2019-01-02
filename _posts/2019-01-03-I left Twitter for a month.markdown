@@ -19,10 +19,10 @@ I uninstalled the app from all my devices, deleted any bookmark to it from all m
 
 At this point I have to say that it was difficult to not click any tweet link in my Whatsapp and Telegram groups, but in a couple of days many of my friends supported my mission and refrained to share (so many) tweets.  
 
-At the beginning it was very hard, as I was craving twitter automatically, all the time. I was pulling the phone from the pocket or table all the time. But soon, it begun to go away. The first day I counted more than 40 attempts of opening twitter by zombily picking up the phone. Next day, was about 13, third day was less than 5. Still, the impulse was there. As soon as I begun to find other things to do with those little whiles, as checking the news in other apps, visiting my favourite subreddits or just getting a coffee with my teammates, i begun to effectively uninstall that habit from my mind.
+At the beginning it was very hard, as I was craving Twitter automatically, all the time. I was pulling the phone from the pocket or table all the time. But soon, it begun to go away. The first day I counted more than 40 attempts of opening Twitter by zombily picking up the phone. Next day, was about 13, third day was less than 5. Still, the impulse was there. As soon as I begun to find other things to do with those little whiles, as checking the news in other apps, visiting my favourite subreddits or just getting a coffee with my teammates, I begun to effectively uninstall that habit from my mind.
 
 The last week of the month was specially difficult as I was so keen to get back to Twitter. But it was the right way: I was feeling that I could beat the purpose of that detox, and the last week was not necessary. Still, I stood against that and I made the whole month.
 
-After all that, I got back to twitter and I'm proud to say that my return is going quite well: my twitter time is much more intentional and I often only open twitter when I have something to tweet, not just to scroll down while daydreaming. 
+After all that, I got back to twitter and I'm proud to say that my return is going quite well: my Iwitter time is much more *intentional* and I often only open twitter when I have something to tweet, not just to scroll down while daydreaming. 
 
 If you feel that any social media gets too much attention from you, considering an unplugged month. It works.
