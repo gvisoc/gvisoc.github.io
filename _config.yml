@@ -18,7 +18,8 @@ title: gvisoc
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my blog on GitHub, where I try to write interesting stuff about my
-  repos and other things related to Software Engineering.
+  repos and other things related to Software Engineering, how Technology 
+  affects life and other things related to it, like Social Media.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gvisoc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gvisoc
