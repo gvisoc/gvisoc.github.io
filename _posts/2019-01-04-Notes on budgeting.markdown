@@ -21,7 +21,7 @@ This is a dictionary **definition of budget**:
 
 Nothing to do with the actual tracking of expenses that have been already made. That would be expenses accounting or expenses tracking, and it´s something that makes a lot of sense to do in order to validate and refine the budget we make.
 
-**In order to make a budget**, we work with all the income we have for a period of time. That money should last until the next time we get money, that is, until the next *income realisation*. We assign lumps of that money to specific purposes (that are often called **buckets** or **envelopes**), in a prioritised order: first the bills that grant us the housing, water, energy, etc., then the groceries, transportation, and so on. The budget will only be done once all and every dollar is asigned to something, and it's best to be very specific.
+**In order to make a budget**, we work with all the income we have for a period of time. That money should last until the next time we get money, that is, until the next deposit. We assign lumps of that money to specific purposes (that are often called **buckets** or **envelopes**), in a prioritised order: first the bills that grant us the housing, water, energy, etc., then the groceries, transportation, and so on. The budget will only be done once all and every dollar is asigned to something, and it's best to be very specific.
 
 **In order to live with the budget, we track the expenses** deducting every expense from the bucket or envelope we have created in our budget, until the end of the budgeted period. There is no point on tracking expenses without a pre-existing budget, other than know how many dollars you have spent in shampoo at the end of the year (which gives you some questionable information, but not control).
 
