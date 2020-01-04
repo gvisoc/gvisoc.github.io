@@ -2,11 +2,8 @@
 layout: post
 title:  "Notes on budgeting"
 date:   2019-01-04 6:15:00 +1100
-comments: "true"
 categories:
-  - "personal"
-tags: 
-  - "personal finance"
+  - "personal finances"
 excerpt_separator: <!--more-->
 ---
 Those of you who follow me on Anchor, or who listen to my Spanish-spoken podcast "[Sobre la marcha](https://anchor.fm/gvisoc)" may have listened to a bunch of episodes about personal finance, [You Need a Budget](https://www.youneedabudget.com/) (YNAB) and budgets in general. In this post I want to share some notes with those of you that you haven't listened to that, either because you don't understand Spanish or because whatever reason.
