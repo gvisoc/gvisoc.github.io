@@ -26,7 +26,7 @@ I have to admit that the first time I signed up to Facebook it seemd a good idea
 
 But then, the political agenda Facebook came out in the news, so I began closing my accounts on their networks. Because of the company´s inclination to destroy democracy and devaluate the public discourse I closed Facebook and, a year or so later, Instagram followed. My final post, a [telegra.ph](https://telegra.ph/) note that I lost, stated that I didn't want to be part of a machine of such kind, because it was harmful. 
 
-If you are new to this, or if you don't know what I'm talking about, I recommend you to read on Cambridge Analytica issue and the Facebook beneplacit for the operations of CA in this directory of [The Guardian](https://www.theguardian.com/news/series/cambridge-analytica-files), in [Christopher Wylie](https://en.wikipedia.org/wiki/Christopher_Wylie)'s book "Mindf*ck", or in the company's [Wikipedia Page](https://en.wikipedia.org/wiki/Cambridge_Analytica).
+If you are new to this, or if you don't know what I'm talking about, I recommend you to read on Cambridge Analytica issue and the Facebook beneplacit for the operations of CA in this directory of [The Guardian](https://www.theguardian.com/news/series/cambridge-analytica-files), in [Christopher Wylie](https://en.wikipedia.org/wiki/Christopher_Wylie)'s book "[Mindf*ck](https://www.penguinrandomhouse.com/books/604375/mindfck-by-christopher-wylie/)", or in the company's [Wikipedia Page](https://en.wikipedia.org/wiki/Cambridge_Analytica).
 
 As I said, I closed Facebook and Instagram and I'll never come back. So, if I want to share some content, nothing better than my own website.
 
