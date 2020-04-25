@@ -72,6 +72,7 @@ echo "WantedBy=multi-user.target		" >> /etc/systemd/system/powertop.service
 systemctl enable --now powertop
 systemctl enable --now tlp.service
 ```
+You can find a bunch of scripts [in one of my GitHub repos](https://github.com/gvisoc/linux-setup). They are not a software masterpiece, just automation to ease the set up of a new Linux installation.
 
 After doing this, I modified the TLP configuration to apply the following values:
 
@@ -80,7 +81,7 @@ After doing this, I modified the TLP configuration to apply the following values
   - `/etc/tlp.conf` for Ubuntu 20.04 LTS
 - Set up some battery thresholds for my target usage. More on this later; it won't affect the figures.
 
-This is fundamentally the energy configuration of my laptop.
+That is, fundamentally, the energy configuration of my laptop.
 
 # Final Preparation: a Few Days of Battery Warm-Up
 I used the laptop for a total of 4 cycles, that is, an equivalent of 4 full discharges and charges back to 100%. One of them was a recalibration of the battery gauge, something that is supported by the hardware of the ThinkPads and that works at follows:
@@ -102,27 +103,29 @@ At that moment I left it alone, powered on and with the lid closed, and I just d
 # The Numbers
 WIP
 
-# Network Factors that will Influence Your Tests
+# Network Factors that will Influence the Battery Life
 The network traffic is very energy-hungry. Nowadays, the network cards manage the power very efficiently to reduce their standby power usage, but when they have to intensely download information, they use their fair amount of energy. 
 
 Try to reduce your network-intensive activity while on a battery. Examples, more or less obvious, are:
 
-- Do not update or refresh the dependencies of your proyect while on the go
 - Do not update the system on a battery (clearly!)
+- Do not update or refresh the dependencies of your software proyects while on the go
 - Do not clear caches. Also, incognito windows are more energy-expensive.
-- Be very careful with scripted software repositories that, if need something from the internet, will download the world and build and compile the World, the Moon and Mars. `rvm` is one of them, I use it to blog in this site (runs on Jekyll), and when it does that, the laptop fans literally go bananas.
+- Be very careful with scripted software repositories that, if need something from the internet, will download the Solar System and build and compile the World, the Moon and Mars. `rvm` is one of them, I use it to blog in this site (runs on Jekyll), and when it does that, the laptop fans literally go bananas.
 
 
 I very aggressively block all the advertisement at my home network with a [Pi-hole](https://pi-hole.net/). Also, I use Firefox with the shields up for any website that works well with all the blockers that the browser ships out of the box.
 
-This will have a dramatic impact on the energy that each of the browser tabs will drain from the battery, and it's something I recommend: block the advertisement, save battery and reduce your emissions.
+These last two factors will have a dramatic impact on the energy that each of the browser tabs will drain from the battery, and it's something I recommend: block the advertisement, save battery and reduce your emissions.
 
 # Extending the Life of the Battery with the Charge Thresholds
-Most of the laptops will stop charging the battery at the 100%, and won't charge it back unless the battery charge level Sdrops below a small percentage below, often 96%. 
+Most consumer laptops will stop charging the battery at the 100%, and won't charge it back unless the battery charge level drops below a slightly smaller percentage, often 96%. 
 
-While those thresholds are also the factory configurations of the ThinkPads, these allow the user to establish a different charge thresholds. This is useful for extending the life of the battery as a component, as it is known that for the Li-Ion batteries, if you are not going to use them, they are best preserved with a charge level between 60% and 80%.
+While those thresholds are also the factory configurations of the ThinkPads, these allow the user to establish a different charge thresholds. This is useful for extending the life of the battery as a component, as it is known that for the Li-Ion batteries, if you are not going to use them for a long period, they are best preserved with a charge level between 60% and 80%.
 
-When you set a different set of thresholds for a ThinkPad, like 60% and 80%, the laptop won't charge unless it drops from 60%, and it will stop charging at 80%. All the rest of the time, the machine will use the AC adapter power, and the battery will be just disconnected. This is very useful and very kind with the battery if you don't use the battery too often.
+When you set a different set of thresholds for a ThinkPad, like 60% and 80%, the laptop won't charge unless the battery charge level falls below 60%, and it will stop charging when it is back at 80%. All the rest of the time on AC, the machine will use the adapter power, and the battery will be... just disconnected. This is very useful and very kind with the battery if you don't use the battery too often.
+
+This is definitely another very nice, charming perk of these laptops.
 
 For Linux, you handle these values with either TLPUI, or with a configuration file. These files are:
 
@@ -136,10 +139,10 @@ The values you want to uncomment and tweak are the following for the internal ba
 - `START_CHARGE_THRESH_BAT0="60"`
 - `STOP_CHARGE_THRESH_BAT0="80"`
 
-These values can be temporally modified by commands like `sudo tlp fullcharge BAT0` or `sudo tlp START_CHARGE 75 BAT0`. If you want the defaults to be restored every time you go on a battery ride, keep going and uncomment the following and set it to 1:
+These values can be temporally modified by commands like `sudo tlp fullcharge BAT0` or `sudo tlp START_CHARGE BAT0 75`. If you want the defaults to be restored every time you go on a battery ride, keep going and uncomment the following and set it to 1:
 
 - `RESTORE_THRESHOLDS_ON_BAT="1"`
 
-Once you do this, these values will be configured system-wide, at some level external to the OS; I'm not sure if it is the UEFI, the system's NVRAM or a NVRAM in the battery or power system, but they will affect other Operating Systems in the machine.
+Once you do this, these values will be configured system-wide, at some place external to the OS; I'm not sure if it is the UEFI, the system's NVRAM or a NVRAM in the battery or in the power subsystem, but they will affect other Operating Systems in the machine.
 
-For Windows 10, all these are done with Lenovo Vantage.
+For Windows 10, all these are done with [Lenovo Vantage](https://www.lenovo.com/us/en/software/vantage).
