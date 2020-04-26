@@ -116,7 +116,7 @@ I used the laptop for a total of 4 cycles, that is, an equivalent of 4 full disc
 At that moment I left it alone, powered on and with the lid closed, and I just did other things. I suppose that you can use the laptop normally, though.
 
 # The Measures
-I set up the brightness to 25% (comfortable for dark themes), connected my headset, and went on a battery ride. What I did was run some scenarios for a number of minutes (2 to 5) in order to stabilize the measures by getting to a sort of "permanent regime", and then check the power drain with `sudo powertop` in a terminal. With that drainage masured in watts, I did some basic arithmetics with the battery total capacity (57 W nominal).
+I set up the brightness to 25% (comfortable for dark themes), connected my headset, and went on a battery ride. What I did was run some scenarios for a number of minutes (2 to 5) in order to stabilize the measures by getting to a sort of "permanent regime", and then check the power drain with `sudo powertop` in a terminal. With that drainage measured in Watts, I did some basic arithmetic with the battery total capacity (57 W nominal).
 
 This ThinkPad has the following power behaviour on a battery:
 
