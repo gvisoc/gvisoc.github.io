@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lenovo ThinkPad T490s: a Battery Review"
+title:  "Lenovo ThinkPad T490s: a Battery Review Under Linux"
 date:   2020-04-26 12:20:00 +1000
 categories:
   - "tech"
