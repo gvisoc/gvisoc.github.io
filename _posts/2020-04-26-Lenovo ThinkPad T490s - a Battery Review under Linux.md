@@ -32,6 +32,7 @@ This laptop has the following configuration:
 | Batteru    | 3 cell 57W                          |
 | OS Shipped | Windows 10 Pro                      |
 | OS Used    | Ubuntu 20.4 LTS (no dual boot)      |
+| Kernel     | 5.4.0-26-generic                    |
 | Undervolt  | No                                  |
 
 Here's the `neofetch` output with the laptop totally idle, hence the 400MHz frequency for the processor (with turbos, pedal to the metal, and so, it can scale up to 4.8 GHz):
