@@ -25,7 +25,7 @@ This laptop has the following configuration:
 | Item       | Value                               |
 | :--------- | :---------------------------------- |
 | Processor  | Intel i7-8665U @ 1.9 GHz            |
-| Memory     | 32 GB DDR4at 2400 MHz, soldered     |
+| Memory     | 32 GB DDR4 at 2400 MHz, soldered    |
 | Storage    | 1 TB M.2 2280 NVMe TLC OPAL         |
 | Graphics   | Integrated Intel UDH Graphics 620   |
 | Display    | 14", 1920 x 1080, IPS Mate, 250 Nit |
