@@ -160,7 +160,7 @@ Most consumer laptops will stop charging the battery at the 100%, and won't char
 
 While those thresholds are also the factory configurations of the ThinkPads, these allow the user to establish a different charge thresholds. This is useful for extending the life of the battery as a component, as it is known that for the Li-Ion batteries, if you are not going to use them for a long period, they are best preserved with a charge level between 60% and 80%.
 
-When you set a different set of thresholds for a ThinkPad, like 60% and 80%, the laptop won't charge unless the battery charge level falls below 60%, and it will stop charging when it is back at 80%. All the rest of the time on AC, the machine will use the adapter power, and the battery will be... just disconnected. This is very useful and very kind with the battery if you don't use the battery too often.
+When you set a different set of thresholds for a ThinkPad, like 60% and 80%, the laptop won't charge unless the battery charge level falls below 60%, and it will stop charging when it is back at 80%. All the rest of the time on AC, the machine will use the adapter power, and the battery will be... just disconnected. This is very useful and very kind to the battery if you don't use the battery too often.
 
 This is definitely another very nice, charming perk of these laptops.
 
