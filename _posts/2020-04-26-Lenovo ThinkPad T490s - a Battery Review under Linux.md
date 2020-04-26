@@ -129,6 +129,8 @@ This ThinkPad has the following power behaviour on a battery:
 | Twitter scroll, Bluetooth Audio   |       8 W | Down to 7 hours                                                |
 | Bulding a Linux Kernel            |    17.6 W | 3:13 hours. This is not the kind of thing you'd do on battery  |
 
+The table in this section is just to give you an idea about the toll of a single scenario when the laptop has achieved "its flow" while doing it: programs loaded, caches are stable, memory has been allocated, and then the power regime gets stable. It doesn't mean that you will get one of these scenarios for the whole day, because we jump from one to another. And also covers a very specific usage, developer oriented.
+
 The first row is worth to mention. I come from using a MacBook Pro from mid-2014, and I remember being able to close the lid and have pretty much the same battery the next day, or maybe 1% or 2% less after a whole night suspended. That was possible for about 3 years, but not since Mojave due to (I suppose) Apple's shift of attention to newer models. The ThinkPad T490s does a not so good 5% to 10%, depending on how much you sleep, and when did you close the lid the previous day. A point would be to be able to further research whether this is due to the laptop design or Linux'.
 
 A few considerations about my blogging set up so you can compare it to some scenarios of yours. I use Jekyll to prepare a static blog that gets uploaded to [GitHub Pages](https://pages.github.com/) by means of git. Jekyll is a static webite framework written in Ruby, and it is based on the usage of Markdown. To edit, I use Visual Studio Code with a preview panel always there, and I have running `bundle exec jekyll serve` in the background. That rebuilds the whole site every time I save a Markdown file. That way I can check the posts on a browser that points to my machine. Here's how it looks:
@@ -136,8 +138,6 @@ A few considerations about my blogging set up so you can compare it to some scen
 ![Look, my blog](/assets/vscode-blog.png)
 
 It's a bit nerdy and quite power efficient. If you are in different scenarios, you can try to get the measures using the same method and draw your own conclusions, but to me the above measures mean that the laptop will keep up with the whole day in many cases.
-
-The table in this section is just to give you an idea about the toll of a single scenario when the laptop has achieved "its flow" while doing it: programs loaded, caches are stable, memory has been allocated, and then the power regime gets stable. It doesn't mean that you will get one of these scenarios for the whole day, because we jump from one to another. And also covers a very specific usage, developer oriented.
 
 # Network Factors that will Influence the Battery Life
 The network traffic is very energy-hungry. Nowadays, the network cards manage the power very efficiently to reduce their standby power usage, but when they have to intensely download information in a non-optimised way (e.g., many HTTP requests are much worse than streaming a Spotify playlist), they use their fair amount of energy. 
