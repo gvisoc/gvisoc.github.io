@@ -7,7 +7,7 @@ categories:
   - "linux"
 excerpt_separator: <!--more-->
 ---
-It's been a while since I decided to renew my laptop and, finally, the replacement to my MacBook Pro mid-2014 came in the mail last Monday (April 21st, 2020). The selected laptop has been a Lenovo ThinkPad T490s, and I decided to use it entirely with Linux.
+It's been a while since I decided to get a new laptop and, finally, the replacement to my MacBook Pro mid-2014 came in the mail last Monday (April 21st, 2020). The selected laptop has been a Lenovo ThinkPad T490s, and I decided to use it entirely with Linux.
 
 In this post I will link some power management tweaks and explain them, as well as some other tips and resources, and analyse how this laptop battery performs using Ubuntu 20.04.
 
@@ -44,7 +44,7 @@ The laptop came with Windows 10 Pro, which is an operating system that I like. T
 The initial configuration was a dual boot between elementary OS and Windows 10. After a week of not booting Windows more than for a few tests, and suffering some [very annoying 3 year old bugs](https://github.com/elementary/gala/issues/63) when connecting an external display to the laptop, I decided to change the layout of my disk to 100% Linux, switch to Ubuntu to avoid bugs, and no Windows.
 
 # Energy Configuration
-Linux has evolved quite nicely when it comes to manage the power consumption of a laptop. The packages TLP and `powertop` give a lot of control over the energy management of modern computers, and some nice specific extensions for the ThinkPads. 
+Linux has evolved quite nicely when it comes to manage the power consumption of a laptop. The packages `tlp` and `powertop` give a lot of control over the energy management of modern computers, and some nice specific extensions for the ThinkPads. 
 
 Although out of the box those packages give a nice performance, it is recommended to tweak their configuration a little and the [ThinkPad subreddit has a very useful wiki page](https://www.reddit.com/r/thinkpad/wiki/os/linux) with instructions to follow. 
 
@@ -88,7 +88,7 @@ systemctl enable --now tlp.service
 ```
 You can find a bunch of scripts [in one of my GitHub repos](https://github.com/gvisoc/linux-setup). They are not a software masterpiece, just automation to ease the set up of a new Linux installation.
 
-After doing this, as my script-fu is not as good as needed to automate the patching of a file, I modified the TLP configuration by hand to apply the following:
+After doing this, as my script-fu is not as good as needed to automate the patching of a file, I modified the `tlp` configuration by hand to apply the following:
 
 - Set up `MAX_LOST_WORK_SECS_ON_BAT` to 15, with either TLPUI under "Disks", or with a configuration file that will depend on the Linux distribution used. In case of Ubuntu, these files are:
   - `/etc/default/tlp` for Ubuntu 18.04 LTS
@@ -130,7 +130,7 @@ This ThinkPad has the following power behaviour on a battery:
 | Twitter scroll, Bluetooth Audio   |       8 W | Down to 7 hours                                                |
 | Bulding a Linux Kernel            |    17.6 W | 3:13 hours. This is not the kind of thing you'd do on battery  |
 
-The table in this section is just to give you an idea about the toll of a single scenario when the laptop has achieved "its flow" while doing it: programs loaded, caches are stable, memory has been allocated, and then the power regime gets stable. It doesn't mean that you will get one of these scenarios for the whole day, because we jump from one to another. And also covers a very specific usage, developer oriented.
+The table in this section is just to give you an idea about the toll of a single scenario when the laptop has achieved "its flow" while doing it: programs loaded, caches are stable, memory has been allocated, and then the power regime gets stable. It doesn't mean that you will stay within one of these scenarios for the whole day, because we jump from one to another. And also covers a very specific usage, developer oriented.
 
 The first row is worth to mention. I come from using a MacBook Pro from mid-2014, and I remember being able to close the lid and have pretty much the same battery the next day, or maybe 1% or 2% less after a whole night suspended. That was possible for about 3 years, but not since Mojave due to (I suppose) Apple's shift of attention to newer models. The ThinkPad T490s does a not so good 5% to 10%, depending on how much you sleep, and when did you close the lid the previous day. A point would be to be able to further research whether this is due to the laptop design or Linux'.
 
@@ -138,7 +138,9 @@ A few considerations about my blogging set up so you can compare it to some scen
 
 ![Look, my blog](/assets/vscode-blog.png)
 
-It's a bit nerdy and quite power efficient. If you are in different scenarios, you can try to get the measures using the same method and draw your own conclusions, but to me the above measures mean that the laptop will keep up with the whole day in many cases.
+It's a bit nerdy and quite power efficient. 
+
+If you are in different scenarios, you can try to get the measures using the same method and draw your own conclusions, but to me the above measures mean that the laptop will keep up with the whole day in many cases.
 
 # Network Factors that will Influence the Battery Life
 The network traffic is very energy-hungry. Nowadays, the network cards manage the power very efficiently to reduce their standby power usage, but when they have to intensely download information in a non-optimised way (e.g., many HTTP requests are much worse than streaming a Spotify playlist), they use their fair amount of energy. 
@@ -152,20 +154,24 @@ Try to reduce your network-intensive activity while on a battery. Examples, more
 - Be very careful with scripted software repositories that, if need something from the internet, will download a stupid amount of libraries, one by one, to build that something. `rvm` is one of them, I use it to blog in this site (runs on Jekyll), and when it does that, the laptop fans literally go bananas.
 
 
-I very aggressively block all the advertisement at my home network with a [Pi-hole](https://pi-hole.net/). Also, I use Firefox with the shields up for any website that works well with all the blockers that the browser ships out of the box.
+I very aggressively block all the advertisement at my home network with a [Pi-hole](https://pi-hole.net/). Also, I use Firefox with the shields up for any website that works well with all the blockers that the browser includes out of the box.
 
 These last two factors will have a dramatic impact on the energy that each of the browser tabs will drain from the battery, and it's something I recommend: block the advertisement, save battery and reduce your emissions.
 
 # Extending the Life of the Battery with the Charge Thresholds
-Most consumer laptops will stop charging the battery at the 100%, and won't charge it back unless the battery charge level drops below a slightly smaller percentage, often 96%. 
+Most consumer laptops will stop charging the battery at 100%, and won't charge it back unless the battery charge level drops below a slightly smaller percentage, often 96%. 
 
-While those thresholds are also the factory configurations of the ThinkPads, these allow the user to establish a different charge thresholds. This is useful for extending the life of the battery as a component, as it is known that for the Li-Ion batteries, if you are not going to use them for a long period, they are best preserved with a charge level between 60% and 80%.
+While those thresholds are also the factory configurations of the ThinkPads, these laptops allow the user to establish a different charge thresholds. This is useful for extending the life of the battery as a component; Li-Ion batteries are known to be best preserved when the charge level is between 60% and 80%. Therefore, if you are not going to use the laptop on battery that much, this is a good thing to do. 
 
-When you set a different set of thresholds for a ThinkPad, like 60% and 80%, the laptop won't charge unless the battery charge level falls below 60%, and it will stop charging when it is back at 80%. All the rest of the time on AC, the machine will use the adapter power, and the battery will be... just disconnected. This is very useful and very kind to the battery if you don't use the battery too often.
+When you set a different set of thresholds for a ThinkPad, like 60% and 80%: 
 
-This is definitely another very nice, charming perk of these laptops.
+- The battery won't charge unless the battery charge level falls below 60%, hence, if your battery level is 67% and you plug AC adapter, the laptop will switch to AC power mode, but the battery won't charge at all.
+- When a charge is triggered because the carge falls below 60% and you plug the AC adapter, it will charge all the way to 80% and stop there. 
+- All the rest of the time, the laptop works on AC: if the battery level _anything_ higher than 60%, the machine will use the adapter power, and the battery will be... just disconnected. 
 
-For Linux, you handle these values with either TLPUI, or with a configuration file. These files are:
+This is very useful, kind to the battery, and definitely another very nice perk of these laptops.
+
+To do this under Linux, you can manage these values with either TLPUI, or with the `tlp` configuration file. These files are:
 
 - `/etc/default/tlp` for Ubuntu 18.04 LTS
 - `/etc/tlp.conf` for Ubuntu 20.04 LTS
