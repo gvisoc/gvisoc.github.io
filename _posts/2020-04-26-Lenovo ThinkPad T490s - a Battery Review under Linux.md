@@ -116,6 +116,8 @@ I used the laptop for a total of 4 cycles, that is, an equivalent of 4 full disc
 
 At that moment I left it alone, powered on and with the lid closed, and I just did other things. I suppose that you can use the laptop normally, though.
 
+In Windows 10, battery gauge recalibration can be done with [Lenovo Vantage](https://www.lenovo.com/us/en/software/vantage).
+
 # The Measures
 I set up the brightness to 25% (comfortable for dark themes), connected my headset, and went on a battery ride. What I did was to run some scenarios for a number of minutes (2 to 5) in order to stabilize the measures by getting to a sort of "permanent regime", and then check the power drain with `sudo powertop` in a terminal. With that drainage measured in Watts, I did some basic arithmetic with the battery total capacity (57 W nominal).
 
@@ -191,4 +193,4 @@ These values can be temporally modified by commands like `sudo tlp fullcharge BA
 
 Once you do this, these values will be configured system-wide, at some place external to the OS; I'm not sure if it is the UEFI, the system's NVRAM or a NVRAM in the battery or in the power subsystem, but they will affect other Operating Systems in the machine.
 
-For Windows 10, all these are done with [Lenovo Vantage](https://www.lenovo.com/us/en/software/vantage).
+As for the battery recalibration, in Windows 10 all these changes are done with [Lenovo Vantage](https://www.lenovo.com/us/en/software/vantage).
