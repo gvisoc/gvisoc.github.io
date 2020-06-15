@@ -196,7 +196,7 @@ It should work now. This is the most common use case for this.
 > **Here be dragons**: hold your horses, one last thing before you go. Take these two files, `MOK.der` and `MOK.priv`, away from your user directory, hide them in a safe place. Personally, I keep them attached to an entry in my password manager, well encrypted. **They are the door for someone to sign any malware so it can run at your computer's boot**!
 
 ## What about signing a custom Kernel?
-If you need to sign a Kernel, the `/path/to/your/file.ko` looks like `/boot/vmlinuz-[KERNEL-VERSION]`, and probably you will have to follow more steps. Although I haven't have the need for it, I found several forum and Stack Overflow questions that pointed to [this document](https://github.com/jakeday/linux-surface/blob/master/SIGNING.md) as a valid process to do it.
+If you need to sign a Kernel, the `/path/to/your/file.ko` looks like `/boot/vmlinuz-[KERNEL-VERSION]`, and probably you will have to follow more steps. Although I haven't had the need for it, I found several forum and Stack Overflow questions that pointed to [this document](https://github.com/jakeday/linux-surface/blob/master/SIGNING.md) as a valid process to do it.
 
 ## What is Secure Boot
 Secure Boot is a mechanism designed to protect the process of booting your computer, that is to say, making your boot secure. It is not a very creative name.
