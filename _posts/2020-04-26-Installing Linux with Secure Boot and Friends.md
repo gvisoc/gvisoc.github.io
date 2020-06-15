@@ -143,8 +143,8 @@ When the system reboot, and provided that the installation program meets its qua
 | Case | Solution | 
 |:----|:---|
 I am installing a binary package and I'm prompted with the nefarious screen of the MOK!|Repeat the process as told in the previous section. This is what will happen in many systems when you try to install third party binary packages. There are other systems, like Debian, that while supporting Secure Boot, they don't have an interactive process like that.|
-| I'm trying to install a module that I know I need and it should work, but it won't load | If you are getting a laconic `Permission Denied`, or `Opperation not permited` after trying to install a module in the Kernel, check `dmesg` after `modprobe module`, then look for something like `Lockdown: modprobe: Loading of unsigned module is restricted; see man kernel_lockdown.7`. If this is your case, you will have to create a MOK key, sign a module with it, and enroll the MOK key, all manually! Don't worry and go to the next section.|
-| I want to compile and install a module | If this is your case, you will have to create a MOK key, sign a module with it, and enroll the MOK key, all manually! Don't worry and go to the next section.|
+| I'm trying to install a module that I know I need and it should work, but it won't load | If you are getting a laconic `Permission Denied`, or `Operation not permitted` after trying to install a module in the Kernel, check `dmesg` after `modprobe module`, then look for something like `Lockdown: modprobe: Loading of unsigned module is restricted; see man kernel_lockdown.7`. If this is your case, you will have to create a MOK key, sign a module with it, and enroll the MOK key, all manually! Don't worry and go to the next section.|
+| I want to compile and install a module | If this is your case, you will have to create a MOK key, sign a module with it, and enroll the MOK key, *all manually*! Don't worry and go to the next section.|
 
 ## Manually signing binaries (e.g.: modules)
 This is the case of a module compiled by hand, or when you install unsigned modules with Secure Boot installed, in more crude distributions like Debian.
