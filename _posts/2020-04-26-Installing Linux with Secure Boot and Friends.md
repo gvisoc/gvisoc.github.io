@@ -8,9 +8,9 @@ categories:
 excerpt_separator: <!--more-->
 ---
 
-This post is motivated by the confusion and the still prevalent recomendation of disabling Secure Boot when installing GNU/Linux, no matter what distribution we are talking about.
+This post is motivated by the confusion and the still prevalent recommendation of disabling Secure Boot when installing GNU/Linux, no matter what distribution we are talking about.
 
-Contrary to the mainstream trend of such a disablement and proceeding with an oudated bootstrap, security-wise, many distributions do support Secure Boot since a while ago.
+Contrary to the mainstream trend of such a disablement and proceeding with an outdated bootstrap, security-wise, many distributions do support Secure Boot since a while ago.
 
 In this post I will provide some links, references, and "glue text to make sense" in order to provide clarity about Secure Boot: what it is, what it provides, and what it takes from us --mostly in terms of user experience, or friction.
 <!--more-->
@@ -55,7 +55,7 @@ If your system shows any of the above symptoms, you have an UEFI.
 ### Choosing a distribution that supports Secure Boot
 There is a way to query distrowatch to get a list of the distributions that may support Secure Boot by searching included packages like [`shim`](https://distrowatch.com/search.php?pkg=shim&relation=lessequal&pkgver=1&distrorange=InAny) or [`efibootmgr`](https://distrowatch.com/search.php?pkg=efibootmgr&pkgver=0.&distrorange=InLatest#pkgsearch), but the best way is to check your favourite distribution's documentation (kudos to [firmwaresecurity.com for the queries hint](https://firmwaresecurity.com/2019/04/29/list-of-linux-distros-support-of-trustedsecuremeasuredboot-and-fwupd-needed/)). 
 
-The good news is that the support of secure boot is already in the Kernel and the base system for all of them, so it would be a matter of time and ideology for it to arrive to your computer. If you want to install a different distribution than those, you'll have to disable Secure Boot in your EFI.
+The good news is that the support of Secure Boot is already in the Kernel and the base system for all of them, so it would be a matter of time and ideology for it to arrive to your computer. If you want to install a different distribution than those, you'll have to disable Secure Boot in your EFI.
 
 ### Download and verify an ISO, preferably a Live one with non-free firmware and modules included
 It is advisable, always, to download an ISO installation image that offers you the possibility of trying Linux in your system without installing it first. This will give you an idea of whether or not your installation media will have the required modules for your hardware, most precisely (and critically neccessary) one module for the graphics adapter and another one for the network. Also, depending on your hardware and distribution, you may have to download specifically an ISO with *non-free* software included for it to work! This is almost always necessary (99%+ cases) in the case of Debian and most  laptops. 
