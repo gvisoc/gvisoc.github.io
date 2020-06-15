@@ -112,7 +112,9 @@ This is caused by Secure Boot, and nothing is wrong. What is happening is the fo
 
 Once done, the installation should continue.
 
-When you finish installing the system, if you were prompted with such an ugly message, you will see a succession of screens like the following (taken from [this Gist](https://gist.github.com/reillysiemens/ac6bea1e6c7684d62f544bd79b2182a4), as they are the same in any case):
+When you finish installing the system, it will reboot. 
+
+If you were prompted with such an ugly message, you will see a succession of screens like the following (taken from [this Gist](https://gist.github.com/reillysiemens/ac6bea1e6c7684d62f544bd79b2182a4), as they are the same in any case) in this first reboot:
 
 ![1st screen](/assets/MOKEnroll1.png){: .center-image }
 
