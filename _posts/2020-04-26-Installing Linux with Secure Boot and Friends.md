@@ -151,14 +151,14 @@ This is the case of a module compiled by hand, or when you install unsigned modu
 
 The steps for Debian (credit to its official documentation and to my experience) are:
 
-1. Compile your software.
-2. `modprobe` will fail. Check that it is due to a Kernel Lockdown state imposed by the Secure Boot, to discard other errors. In `dmesg`, search for something with similar semantics to this:
+- Compile your software.
+- `modprobe` will fail. Check that it is due to a Kernel Lockdown state imposed by the Secure Boot, to discard other errors. In `dmesg`, search for something with similar semantics to this:
 
 ```Lockdown: modprobe: Loading of unsigned module is restricted; see man kernel_lockdown.7```
 
-3. If you have already enrolled a Machine Owner Key (MOK) yourself, and it is available for you, put it in your home directory and jump to step 8. Otherwise, continue here.
-4. Install the packages `mokutil` and `openssl`.
-5. Open a terminal and create a MOK (Machine Owner Key) with the following process (`# commented`), documented [here](https://wiki.debian.org/SecureBoot#Enroling_a_new_key):
+- If you have already enrolled a Machine Owner Key (MOK) yourself, and it is available for you, put it in your home directory and jump to step "**Open a terminal to sign the binary**". Otherwise, continue here.
+- Install the packages `mokutil` and `openssl`.
+- Open a terminal and create a MOK (Machine Owner Key) with the following process (`# commented`), documented [here](https://wiki.debian.org/SecureBoot#Enroling_a_new_key):
 
 ```bash
 # Go to your home folder
@@ -168,7 +168,7 @@ cd ~
 openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -days 36500 -subj "/CN=gabriel/" -nodes
 ``` 
 
-6. You will obtain two files, `MOK.der` and `MOK.priv` in your home folder. Enroll the keys in your EFI
+- You will obtain two files, `MOK.der` and `MOK.priv` in your home folder. Enroll the keys in your EFI
 
 ```bash
 # If you don't have sudo installed, run `su` and type the root password
@@ -177,8 +177,8 @@ sudo mokutil --import MOK.der
 # This will prompt for a one time password to set up.
 ```
 
-7. Reboot the computer. You will be promted with the blue screens of section "Installing with Secure Boot: things that can happen". In this case, if you select the options to `View Key 0`, you will be able to see your name and the name of your computer. In my example, I saw "gabriel@rodas", and rodas is my computer named after [this beach](https://en.wikipedia.org/wiki/Playa_de_Rodas) very close to my hometown.
-8. Open a terminal to sign the binary. Follow the process changing the `/path/to/file.ko` with the path to the file you need to sign.
+- Reboot the computer. You will be promted with the blue screens of section "Installing with Secure Boot: things that can happen". In this case, if you select the options to `View Key 0`, you will be able to see your name and the name of your computer. In my example, I saw "gabriel@rodas", and rodas is my computer named after [this beach](https://en.wikipedia.org/wiki/Playa_de_Rodas) very close to my hometown.
+- **Open a terminal to sign the binary**. Follow the process changing the `/path/to/file.ko` with the path to the file you need to sign.
 
 ```bash
 # Assuming that you have kernel version X.Y.Z
@@ -187,7 +187,7 @@ cd /lib/linux-kbuild-X-Y/
 sudo scripts/sign-file sha256 /home/gabriel/MOK.priv /home/gabriel/MOK.der /path/to/your/file.ko
 ```
 
-9. Try to load again the module
+- Try to load again the module
 
 ```
 sudo modprobe /path/to/your/file.ko
