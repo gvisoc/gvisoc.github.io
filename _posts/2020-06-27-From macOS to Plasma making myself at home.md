@@ -40,7 +40,7 @@ In order to have the global menu in the same position than in my old Mac, I turn
 2. I took back the system tray to the right corner, by adding a spacer in the panel and drag the widgets around it.
 3. At this point, I had a panel that only had the application launcher at the left, a system tray at the right, and nothing else.
 4. I dragged it to the upper screen border and give it the appropriate height. I chose 24 pixels.
-5. I finally added the proper widget, the Global Menu. I placed it between the Application Launcher and the Spacer you just added in step 2.
+5. I finally added the proper widget, the Global Menu. I placed it between the Application Launcher and the Spacer I just added in step 2.
 
 At this point, you have a Global Menu that won't work for now, because the applications won't publish their menu to it! You need to install the following packages:
 
