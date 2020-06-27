@@ -50,7 +50,7 @@ sudo apt -y install appmenu-gtk2-module appmenu-gtk3-module \
 ```
 These packages will allow all the applications that use the desktop environment, in any of the available UI variants (GTK2, GTK3, QT), to publish their menu to the Global Menu using the D-Bus.
 
-After that installation, you should have a working global application menu a la macOS in your Plasma Desktop. It will display the application menu of the application you are using at every moment. 
+After that installation, you should have a working global application menu a la macOS in your Plasma desktop. It will display the application menu of the application you are using at every moment. 
 
 ![The Application menu showing the VS Code menu. Notice that the VS Code windows doesn't have a replica of the menu](/assets/globalmenu.png){: .center-image }
 
