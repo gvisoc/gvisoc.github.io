@@ -11,7 +11,7 @@ I have been a Mac user for the last few years and, while I have been a GNU/Linux
 
 I recently changed my great MacBook Pro for another great machine, a Lenovo ThinkPad T490s. I have chosen Debian with Plasma by KDE (formerly just "KDE") as the desktop environment. It is known that Plasma is much closer to the Windows 10 usability conventions than to the macOS', so I needed to enable a few features to make myself at home. 
 
-This is a very personal post to detail how I have tweaked Plasma by KDE not to look like macOS, but to adopt the bits of its behaviour that were useful to me and that I would miss:
+This is a very personal post to detail how I have tweaked Plasma, not to look like macOS, but to adopt the bits of its behaviour that were useful to me and that I would miss:
 
 - A global application menu
 - An icon task list at the bottom, which is _not_ a Dock
@@ -22,10 +22,6 @@ The result is a very clean environment that doesn't get in the way, that doesn't
 
 I left the `neofetch` output just in case someone wants to know more about the themes used (quite unremarkable choices I think, but hey).
 <!--more-->
-
-First of all, I have to clarify that this is not a Windows v. Linux v. macOS post, and it doesn't aim to sparkle yet another battle in the Great Operating Systems War: I love the three of them, and I use the three of them. 
-
-Also, as I have said: this post is not a theme tweaking how to, it is about behaviour and some user experience conventions, not about theming. I do not mind at all the macOS visual experience, it was nice and all, but not a main driver to me. Eye candy is not here today.
 
 # Global Application Menu
 I wanted a Global Application Menu for two reasons: personal preference and windows efficiency.
