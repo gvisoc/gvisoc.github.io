@@ -19,6 +19,8 @@ This is a very personal post to detail how I have tweaked Plasma by KDE not to l
 The result is a very clean environment that doesn't get in the way, that doesn't distract with too much eye candy, and for that, perfect for coding tasks and data display.
 
 ![Desktop Result](/assets/desktopresult.png){: .center-image }
+
+I left the `neofetch` output just in case someone wants to know more about the themes used (quite unremarkable choices I think, but hey).
 <!--more-->
 
 First of all, I have to clarify that this is not a Windows v. Linux v. macOS post, and it doesn't aim to sparkle yet another battle in the Great Operating Systems War: I love the three of them, and I use the three of them. 
