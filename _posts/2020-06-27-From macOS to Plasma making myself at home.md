@@ -54,7 +54,7 @@ After that installation, you should have a working global application menu a la 
 
 ![The Application menu showing the VS Code menu. Notice that the VS Code windows doesn't have a replica of the menu](/assets/globalmenu.png){: .center-image }
 
-Also, as the only warning, you will depend on the application developer to make the application menu to comply with this UX convention. One example of an application thatdoesn't publish its menu, is Firefox. I find this very annoying, as its macOS version does provide a global application menu to the Mac menubar. I guess this is an example of a restrictive, *policied* desktop environment that *requires compliance*, as macOS does, as opposed to an environment with a much more loose set of definitions and choices, such as GNU/Linux' desktop environments are.
+Also, as the only warning, you will depend on the application developer to make the application menu to comply with this UX convention. One example of an application that doesn't publish its menu, is Firefox. I find this very annoying, as its macOS version does provide a global application menu to the Mac menubar. I guess this is an example of a restrictive, *policied* desktop environment that *requires compliance*, as macOS does, as opposed to an environment with a much more loose set of definitions and choices, such as GNU/Linux' desktop environments are.
 
 # Recovering the Bits of the macOS Dock that I Like and Miss
 I always had an almost empty Dock in my Mac. It only had the Trash and Finder icons, but because you really can't get rid of them, but what I found somehow useful was to have the open applications there. 
