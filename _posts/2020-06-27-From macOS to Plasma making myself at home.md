@@ -7,7 +7,7 @@ categories:
   - "linux"
 excerpt_separator: <!--more-->
 ---
-I have been a Mac user for the last few years and, while I have been a GNU/Linux user for more than 22, I have to say that some of the macOS desktop conventions very well matched my needs, and rooted very deep in my work-related workflows, carving themselves in my brain.
+I have been a Mac user for the last few years and, while I have been a GNU/Linux user for more than 22, I have to say that some of the macOS desktop conventions very well matched my needs, and rooted very deep in my work-related workflows, carving themselves into my brain.
 
 I recently changed my great MacBook Pro for another great machine, a Lenovo ThinkPad T490s. I have chosen Debian with Plasma by KDE (formerly just "KDE") as the desktop environment. It is known that Plasma is much closer to the Windows 10 usability conventions than to the macOS', so I needed to enable a bit of features to make myself at home. 
 
