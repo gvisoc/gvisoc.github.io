@@ -57,7 +57,7 @@ After that installation, you should have a working global application menu a la 
 Also, as the only warning, you will depend on the application developer to make the application menu to comply with this UX convention. One example of an application that doesn't publish its menu, is Firefox. I find this very annoying, as its macOS version does provide a global application menu to the Mac menubar. I guess this is an example of a restrictive, *policied* desktop environment that *requires compliance*, as macOS does, as opposed to an environment with a much more loose set of definitions and choices, such as GNU/Linux' desktop environments are.
 
 # Recovering the Bits of the macOS Dock that I Like and Miss
-I always had an almost empty Dock in my Mac. It only had the Trash and Finder icons, but because you really can't get rid of them. In reality, what I found the Dock somehow useful for was to have the open applications list there. 
+I always had an almost empty Dock in my Mac. It only had the Trash and Finder icons, but because you really can't get rid of them. In reality, what I found the Dock somehow useful for, was to show the open applications list there. 
 
 So for my Plasma setup, I created a second panel to have in the bottom of my screen, I added as the icon-only tasklist as only widget, and I configured it to grow dynamically from left to right (I really never liked the center obsession with the macOS dock). Other settings for this panel are the following:
 
