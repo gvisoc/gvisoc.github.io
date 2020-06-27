@@ -62,9 +62,9 @@ I always had an almost empty Dock in my Mac. It only had the Trash and Finder ic
 So for my Plasma setup, I created a second panel to have in the bottom of my screen, I added as the icon-only tasklist as only widget, and I configured it to grow dynamically from left to right (I really never liked the center obsession with the macOS dock). Other settings for this panel are the following:
 
 - The icon-only tasklist widget is configured by default with two rows of icons. I don't like that, so I configured the panel with only one row.
-- Its height is 48 pixels
-- My current set up is "Windows can go below". As I said, I hardly ever maximise any window, so I don't really have overlapping. But if I do, I prefer that behaviour rather than the auto-hide or hiding the panel. For no strong reason, to be honest.
+- Its height is 48 pixels.
+- My current set up when a window reaches that panel is "Windows can go below". As I said, I hardly ever maximise any window, so I don't really have overlapping most of the times. But if I do, I prefer that behaviour rather than the auto-hide or hiding the panel. For no strong reason, to be honest.
 
 ![Task List is Back](/assets/tasklist.png){: .center-image }
 
-No package installation is needed for this. Of course you can install a proper Dock for these kinds of set ups, because I know: this is not a dock, it's just a panel with the task list. But, again: this is what I was using the macOS dock for, so...
+No package installation is needed for this. Of course you can install a proper Dock for these kinds of set ups, because I know: this is not a dock, it's just a panel with the task list. But, again: this is what I was using the macOS dock for, so... this is it!
