@@ -1,0 +1,10 @@
+I"Y<p>I have been a Mac user for the last few years and, while I have been a GNU/Linux user for more than 22, I have to say that some of the macOS desktop conventions very well matched my needs, and rooted very deep in my work-related workflows, carving themselves into my brain.</p>
+
+<p>I recently changed my great MacBook Pro for another great machine, a Lenovo ThinkPad T490s. I have chosen Debian with Plasma by KDE (formerly just “KDE”) as the desktop environment. It is known that Plasma is much closer to the Windows 10 usability conventions than to the macOS’, so I needed to enable a few features to make myself at home.</p>
+
+<p><img src="/assets/desktopresult.png" alt="Desktop Result" class="center-image" /></p>
+
+<p>The result is a very clean environment that doesn’t get in the way, that doesn’t distract with too much eye candy, and for that, perfect for coding tasks and data display.</p>
+
+<p>I left the <code class="language-plaintext highlighter-rouge">neofetch</code> output just in case someone wants to know more about the themes used (quite unremarkable choices I think, but hey).</p>
+:ET

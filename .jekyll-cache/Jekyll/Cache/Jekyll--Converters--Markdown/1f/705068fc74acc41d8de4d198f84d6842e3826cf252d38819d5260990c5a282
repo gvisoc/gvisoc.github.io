@@ -1,0 +1,6 @@
+I"k<p>This post is motivated by the confusion and the still prevalent recommendation of disabling Secure Boot when installing GNU/Linux, no matter what distribution we are talking about.</p>
+
+<p>Contrary to the mainstream trend of such a disablement and proceeding with an outdated bootstrap, security-wise, many distributions do support Secure Boot since a while ago.</p>
+
+<p>In this post I will provide some links, references, and “glue text to make sense” in order to provide clarity about Secure Boot: what it is, what it provides, and what it takes from us –mostly in terms of user experience, or friction.</p>
+:ET
