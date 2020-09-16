@@ -13,6 +13,4 @@ This is my personal website, hosted at GitHub Pages. Here I *intend* to write a 
 Also, moving to Australia has simplified a lot my life, as I had to sell or let go almost all my material possessions. That meant a lot of changes in my habits, and recently I realised that I evolved into a minimalist in many aspects of my life, in a 100% natural way. Regarding this transformation, you can expect some posts about decluttering, work patterns, how simplifying my stuff led to much more focus, etc.
 
 * You can follow me on twitter at [gvisoc](https://twitter.com/gvisoc). I tweet both in English and in Spanish. To tell the truth, most of my tweets are in Spanish. I am trying to improve that balance and tweet more in English.
-* You can find me also at GitHub (kind warning --my repo is mostly empty!) where I am also [gvisoc](https://github.com/gvisoc) 
-
-You can also check other ways to contact me through my [keybase profile](https://keybase.io/gvisoc).
+* You can find me also at GitHub (kind warning --my repo is mostly empty!) where I am also [gvisoc](https://github.com/gvisoc).
