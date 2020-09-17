@@ -11,6 +11,7 @@ I have been a Mac user for the last few years and, while I have been a GNU/Linux
 
 I recently changed my great MacBook Pro for another great machine, a Lenovo ThinkPad T490s. I have chosen Debian with Plasma by KDE (formerly just "KDE") as the desktop environment. It is known that Plasma is much closer to the Windows 10 usability conventions than to the macOS', so I needed to enable a few features to make myself at home. 
 
+
 ![Desktop Result](/assets/desktopresult.png){: .center-image }
 
 The result is a very clean environment that doesn't get in the way, that doesn't distract with too much eye candy, and for that, perfect for coding tasks and data display.
@@ -52,7 +53,7 @@ sudo apt -y install appmenu-gtk2-module appmenu-gtk3-module \
 ```
 These packages will allow all the applications that use the desktop environment, in any of the available UI variants (GTK2, GTK3, QT), to publish their menu to the Global Menu using the D-Bus.
 
-After that installation, you should have a working global application menu a la macOS in your Plasma desktop. It will display the application menu of the application you are using at every moment, and no compliant applications will have an application menu in them. 
+After that installation, you should have a working global application menu a la macOS in your Plasma desktop. It will display the application menu of the application you are using at every moment, and no compliant applications will have an application menu in them.
 
 ![The Application menu showing the VS Code menu. Notice that the VS Code windows doesn't have a replica of the menu](/assets/globalmenu.png){: .center-image }
 
