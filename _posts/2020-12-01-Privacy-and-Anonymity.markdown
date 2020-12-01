@@ -6,7 +6,7 @@ categories:
   - "privacy"
 excerpt_separator: <!--more-->
 ---
-Often confused, anonymity and privacy are undoubtedly different things. They can be combined, for them to act together for your benefit, but they are rather idependent. As such, we should never criticise privacy activists for things such as speaking or acting under their true name.
+Often confused, anonymity and privacy are undoubtedly different things. They can be combined, for them to act together for your benefit, but they are rather independent. As such, we should never criticise privacy activists for things such as speaking or acting under their true name.
 
 <!--more-->
 
@@ -14,7 +14,7 @@ Often confused, anonymity and privacy are undoubtedly different things. They can
 
 **Privacy**, on the contrary, is about having control over the visibility of your data or activity. Given that someone knows a bit about you, like for example an alias, a social media handle, your name, or your face,... your privacy is about to have control over what other things about you they can know. 
 
-The *Data Privacy* is pretty obvious: you can be posting content, or sharing activity, under your real name and alongside your picture. You can be perfectly fine with a third person or party finding you in the various social sites you post, but *not* with them knowing where did you post your content from, what your personal e-mail address, or where you live, or who are your relatives. Also, you may want to encrypt your intimate messages to your significant one, so that nobody else than you two could ever see the content or the *data* you shared. You can even want to keep the fact that you messaged them private, that is, you may want to hide, obfuscate or obliviate the communication *metadata*. 
+The *Data Privacy* is pretty obvious: you can be posting content, or sharing activity, under your real name and alongside your picture. You can be perfectly fine with a third person or party finding you in the various social sites you post, but *not* with them knowing where you posted your content from, what your personal e-mail address is, or where you live, or who your relatives are. Also, you may want to encrypt your intimate messages to your significant one, so that nobody else than you two could ever see the content, the *data*, you shared. You can even want to keep private the fact that you messaged them. That is to say, you may want to hide, obfuscate or obliviate the communication *metadata*. 
 
 None of the above privacy concerns means that you'd want to go anonymous.
 
@@ -30,4 +30,4 @@ One can think that the activity privacy is achieved by going full anonymous, but
 
 Anonymity can also defeat the purpose of your online self, as expressing your own ideas, beliefs and ideology can't be done behind a different identity. You'd lose your own voice. You are your absolutely fundamental representative: you have a fundamental right that consists in speaking and acting in your name. Going anonymous is losing such right.
 
-I will be writing about resources in this blog on both aspects of our protection -- anonymity and privacy.
+I will be writing about resources in this blog on both aspects of our protection --anonymity and privacy.
