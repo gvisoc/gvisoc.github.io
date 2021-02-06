@@ -52,7 +52,7 @@ Another consequence is that all user home directories will be lost in the event 
 
 A much worse scenario would be the one where we run out of space in the system's partitions because we put too many files under our home directories, causing DSM to crash and even to have problems to boot.
 
-# Solving the Problem
+# The Solution 
 Solving the problem is as easy as login in through SSH to back up our files and delete the `/var/services/homes` folder:
 
 ```bash
