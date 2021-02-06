@@ -23,7 +23,7 @@ If you try to disable and re-enable User Homes Service, DSM shows a sad and brie
 ![Log Station Message](/assets/LogCenter.png)
 
 # The Problem
-The problem is that the user homes' hosting folder, named `homes`, should be created in one of the main volumes inside the disk array, for instance, `/volume1/`, and a symbolic link back should be created at `/var/services/homes`. Instead, in this case the `homes` folder was created in that location directly; we can check it by doing SSH to the NAS:
+The problem is that the user homes' hosting folder, named `homes`, should be created in one of the main volumes inside the disk array, for instance, `/volume1/homes`, and a symbolic link back should be created at `/var/services/homes`. Instead, in this case the `homes` folder was created in that location directly, as a regular folder (`/var/services/homes`). We can check it by doing SSH to the NAS:
 
 ```bash
 user@hostname:~$ pwd
@@ -33,18 +33,20 @@ user@hostname:/var/services$ ls -lda homes
 drwxr-xr-x 6 root root 4096 Feb 5 08:00 homes 
 ```
 
-That causes everything to fail. The expected result of a successful User Home service activation is this one instead:
+That causes everything relying on the User Home service to fail. The expected result of a successful User Home service activation is this one instead:
 
 ```bash
 user@hostname:/var/services$ ls -lda homes
 lrwxr-xr-x 6 root root 4096 Feb 5 08:10 homes -> /volume1/homes 
 ```
 
-Although the user still has its home folder that works, it is outside the disk array and in the operating system's partition. The consequences of this problem are various. 
+Not only you can see where it points, but also the `l` flag on the folder permissions, meaning *link*, instead of `d` from *directory*.
+
+It is important to note that, although the user still has its home folder that works, **the user homes created this way are outside the disk array and in the operating system's filesystem**. This fact have several consequences, all of them dangerous for our files, for DSM's stability, and therefore for our NAS realiability.. 
 
 In the first place, all Synology packages operate with directories under the volumes created inside the disk array, and that's why Synology Mail didn't detect the user homes directories and kept asking for User Home service to be enabled. As with Synology Mail, if the NAS is kept in this situation, the files in those directories won't be accessible by any backup or synchronisation service, and something as simple as updating DSM can have the files wiped and lost forever. 
 
-Another consequence is that all user home directories will be lost in the event of machine upgrades or replacement, meaning that in the event of moving the disks to a new NAS, those user home directories  won't be moved.
+Another consequence is that all user home directories will be lost in the event of machine upgrades or replacement, meaning that in the event of moving the disks to a new NAS, those user home directories won't be moved.
 
 A much worse scenario would be the one where we run out of space in the system's partitions because we put too many files under our home directories, causing DSM to crash and even to have problems to boot.
 
