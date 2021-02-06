@@ -33,7 +33,7 @@ user@hostname:/var/services$ ls -lda homes
 drwxr-xr-x 6 root root 4096 Feb 5 08:00 homes 
 ```
 
-That causes everything relying on the User Home service to fail. The expected result of a successful User Home service activation is this one instead:
+The expected result of a successful User Home service activation is this one instead:
 
 ```bash
 user@hostname:/var/services$ ls -lda homes
@@ -44,7 +44,7 @@ Not only you can see where it points, but also the `l` flag on the folder permis
 
 It is important to note that, although the user still has its home folder that works, **the user homes created this way are outside the disk array and in the operating system's filesystem**. This fact have several consequences, all of them dangerous for our files, for DSM's stability, and therefore for our NAS reliability. 
 
-In the first place, all Synology packages operate with directories under the volumes created inside the disk array, and that's why Synology Mail didn't detect the user homes directories and kept asking for User Home service to be enabled. As with Synology Mail, if the NAS is kept in this situation, the files in those directories won't be accessible by any backup or synchronisation service, and something as simple as updating DSM can have all the files under `/var/services/homes/` wiped, and lost forever. 
+In the first place, it causes almost every Synology package that depends on the User Home service to fail. Synology packages usually operate with directories under the volumes created inside the disk array, not under `/var/services/`, and that's why Synology Mail didn't detect the user homes directories and kept asking for User Home service to be enabled. As with Synology Mail, if the NAS is kept in this situation, the files in those directories won't be accessible by any backup or synchronisation service, and something as simple as updating DSM can have all the files under `/var/services/homes/` wiped, and lost forever. 
 
 Another consequence is that all user home directories will be lost in the event of machine upgrades or replacement, meaning that in the event of moving the disks to a new NAS, those user home directories won't be carried over.
 
