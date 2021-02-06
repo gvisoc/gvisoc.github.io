@@ -44,7 +44,7 @@ user@hostname:/var/services$ ls -lda homes
 lrwxr-xr-x 6 root root 4096 Feb 5 08:10 homes -> /volume1/homes 
 ```
 
-Although the user still has its home folder that works, it is outside the disk array and in the operatin system partition. The consequences of this problem are various. 
+Although the user still has its home folder that works, it is outside the disk array and in the operating system's partition. The consequences of this problem are various. 
 
 In the first place, all Synology packages operate with directories under the volumes created inside the disk array, and that's why Synology Mail won't detect the user homes directories and keeps asking you to enable User Home Service. As with Synology Mail, if the NAS is kept in this situation, files in such directories won't be accessible by any backup or synchronisation service, as well, and something as simple as updating DSM can have the files wiped. 
 
