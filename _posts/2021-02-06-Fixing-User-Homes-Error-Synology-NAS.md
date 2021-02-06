@@ -73,4 +73,4 @@ lrwxr-xr-x 6 root root 4096 Feb 5 08:10 homes -> /volume1/homes
 
 Finally, we log into the DSM web interface, to disable without error and re-enable the User Home service. 
 
-No services will fail on activation, and the DSM File Station should show all users' home directories; time to restore the previous users' home folders contents if needed.
+No services should fail on activation, and the DSM File Station should show all users' home directories; time to restore the previous users' home folders contents if needed.
