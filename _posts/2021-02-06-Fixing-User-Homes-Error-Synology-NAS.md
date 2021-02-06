@@ -48,7 +48,7 @@ In the first place, all Synology packages operate with directories under the vol
 
 Another consequence is that all user home directories will be lost in the event of machine upgrades or replacement, meaning that in the event of moving the disks to a new NAS, those user home directories won't be carried over.
 
-A much worse scenario would be the one where we run out of space in the system's partitions because we put too many files under our home directories, causing DSM to crash and even to have problems to boot.
+A much worse scenario would be the one where we run out of space in the system's partitions because we put too many files under our home directories, phisically located under `/var`, causing DSM to crash and, probably, to have problems to boot.
 
 # The Solution 
 Solving the problem is as easy as login in through SSH to back up our files and delete the `/var/services/homes` folder:
