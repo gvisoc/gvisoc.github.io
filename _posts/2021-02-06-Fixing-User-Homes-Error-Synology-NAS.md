@@ -40,7 +40,7 @@ user@hostname:/var/services$ ls -lda homes
 lrwxr-xr-x 6 root root 4096 Feb 5 08:10 homes -> /volume1/homes 
 ```
 
-Not only you can see where it points, but also the `l` flag on the folder permissions, meaning *link*, instead of `d` from *directory*.
+Not only you can see where it points, but also the `l` flag on the folder permissions, meaning *link*, instead of a `d` from *directory*.
 
 It is important to note that, although the user still has its home folder that works, **the user homes created this way are outside the disk array and in the operating system's filesystem**. This fact have several consequences, all of them dangerous for our files, for DSM's stability, and therefore for our NAS realiability.. 
 
