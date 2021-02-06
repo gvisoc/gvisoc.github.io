@@ -46,11 +46,11 @@ lrwxr-xr-x 6 root root 4096 Feb 5 08:10 homes -> /volume1/homes
 
 Although the user still has its home folder that works, it is outside the disk array and in the operating system's partition. The consequences of this problem are various. 
 
-In the first place, all Synology packages operate with directories under the volumes created inside the disk array, and that's why Synology Mail won't detect the user homes directories and keeps asking you to enable User Home Service. As with Synology Mail, if the NAS is kept in this situation, files in such directories won't be accessible by any backup or synchronisation service, as well, and something as simple as updating DSM can have the files wiped. 
+In the first place, all Synology packages operate with directories under the volumes created inside the disk array, and that's why Synology Mail didn't detect the user homes directories and kept asking for User Home service to be enabled. As with Synology Mail, if the NAS is kept in this situation, the files in those directories won't be accessible by any backup or synchronisation service, and something as simple as updating DSM can have the files wiped and lost forever. 
 
-Another consequence is that `user` home directory will be lost in the event of machine upgrades or replacements, as it is in the operating system's filesystem itself instead of in the disk array, meaning that if you move your disks to a new machine, it won't be moved.
+Another consequence is that all user home directories will be lost in the event of machine upgrades or replacement, meaning that in the event of moving the disks to a new NAS, those user home directories  won't be moved.
 
-A much worse scenario would be the one where we run out of space in the system's partitions because we put too many files under our home directory, causing DSM to crash and even to have problems to boot.
+A much worse scenario would be the one where we run out of space in the system's partitions because we put too many files under our home directories, causing DSM to crash and even to have problems to boot.
 
 # Solving the Problem
 Solving the problem is as easy as login in through SSH to back up our files and delete the `/var/services/homes` folder:
