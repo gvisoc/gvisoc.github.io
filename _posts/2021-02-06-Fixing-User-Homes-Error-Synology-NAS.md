@@ -54,9 +54,7 @@ A much worse scenario would be the one where we run out of space in the system's
 Solving the problem is as easy as login in through SSH to back up our files and delete the `/var/services/homes` folder:
 
 ```bash
-user@hostname:~$ pwd
-user@hostname:/var/services$ ls -lda homes
-drwxr-xr-x 6 root root 4096 Feb 5 08:00 homes
+user@hostname:~$ cd /var/services
 user@hostname:/var/services$ tar cfz /volume1/[dest. folder]/homes-backup.tgz homes
 user@hostname:/var/services$ sudo rm -rf homes
 ```
