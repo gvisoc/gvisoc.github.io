@@ -16,7 +16,7 @@ The symptoms are as follows:
 
 At some point you need to activate User Home service as per the requirements of some other package (for example, Synology Mail), or just because you want to work through SSH, or any other valid reason.
 
-Although you activate it, the dependent package keeps asking you to enable it. Or, if you just enabled it to use home folders via SSH, although you land on a home directory when you log in through SSH, you can't see it through DS File or FileStation:
+Although you activate it, the dependent package keeps asking you to enable it. Or, if you just enabled it to use home folders via SSH, although you land on a home directory when you log in through SSH, you can't see it through DS File or File Station:
 
 ![File Station Not Showing Homes](/assets/FileStation.png)
 
