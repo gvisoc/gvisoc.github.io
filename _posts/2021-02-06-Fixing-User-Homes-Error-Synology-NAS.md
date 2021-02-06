@@ -37,7 +37,7 @@ user@hostname:/var/services$ ls -lda homes
 drwxr-xr-x 6 root root 4096 Feb 5 08:00 homes 
 ```
 
-That causes everything to fail. The expected result of a successful User Homes activation should be, instead, this one:
+That causes everything to fail. The expected result of a successful User Home service activation should be, instead, this one:
 
 ```bash
 user@hostname:/var/services$ ls -lda homes
