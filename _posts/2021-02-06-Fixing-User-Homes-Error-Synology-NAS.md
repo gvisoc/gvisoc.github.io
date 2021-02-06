@@ -18,7 +18,7 @@ At some point you need to activate User Home service as per the requirements of 
 
 In the above picture you should see a folder for each user under `homes`, plus a `home` directory that would host your files (it's like a symbolic link dynamically created when you log in to the NAS through DSM or DS File).
 
-If you try to disable and re-enable User Homes Service, it shows a sad and brief "Operation Failed" error pop up, and in Log Center you just see a useless message "User home service disable failed" like the one below:
+If you try to disable and re-enable User Homes Service, DSM shows a sad and brief "Operation Failed" error pop up, and in Log Center you just see a useless message "User home service disable failed" like the one below:
 
 ![Log Station Message](/assets/LogCenter.png)
 
