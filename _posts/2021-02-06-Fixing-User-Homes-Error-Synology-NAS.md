@@ -46,7 +46,7 @@ It is important to note that, although the user still has its home folder that w
 
 In the first place, all Synology packages operate with directories under the volumes created inside the disk array, and that's why Synology Mail didn't detect the user homes directories and kept asking for User Home service to be enabled. As with Synology Mail, if the NAS is kept in this situation, the files in those directories won't be accessible by any backup or synchronisation service, and something as simple as updating DSM can have all the files under `/var/services/homes/` wiped, and lost forever. 
 
-Another consequence is that all user home directories will be lost in the event of machine upgrades or replacement, meaning that in the event of moving the disks to a new NAS, those user home directories won't be moved.
+Another consequence is that all user home directories will be lost in the event of machine upgrades or replacement, meaning that in the event of moving the disks to a new NAS, those user home directories won't be carried over.
 
 A much worse scenario would be the one where we run out of space in the system's partitions because we put too many files under our home directories, causing DSM to crash and even to have problems to boot.
 
