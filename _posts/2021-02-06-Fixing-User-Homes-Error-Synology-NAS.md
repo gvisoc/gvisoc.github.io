@@ -42,7 +42,7 @@ lrwxr-xr-x 6 root root 4096 Feb 5 08:10 homes -> /volume1/homes
 
 Not only you can see where it points, but also the `l` flag on the folder permissions, meaning *link*, instead of a `d` from *directory*.
 
-It is important to note that, although the user still has its home folder that works, **the user homes created this way are outside the disk array and in the operating system's filesystem**. This fact have several consequences, all of them dangerous for our files, for DSM's stability, and therefore for our NAS realiability.. 
+It is important to note that, although the user still has its home folder that works, **the user homes created this way are outside the disk array and in the operating system's filesystem**. This fact have several consequences, all of them dangerous for our files, for DSM's stability, and therefore for our NAS reliability. 
 
 In the first place, all Synology packages operate with directories under the volumes created inside the disk array, and that's why Synology Mail didn't detect the user homes directories and kept asking for User Home service to be enabled. As with Synology Mail, if the NAS is kept in this situation, the files in those directories won't be accessible by any backup or synchronisation service, and something as simple as updating DSM can have the files wiped and lost forever. 
 
