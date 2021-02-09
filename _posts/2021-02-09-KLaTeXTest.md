@@ -7,10 +7,10 @@ tags:
 - Jekyll
 - LaTeX
 ---
-This is a test of \\(\KaTeX\\), a way to render $$\LaTeX$$ in a Jekyll blog. It has inline code (as previously shown), but also block code:
+This is a test of \\(\KaTeX\\), a way to render $$\LaTeX$$ in a Jekyll blog. It has inline code, as in the previous sentence, and also block code as shown below.
 
-\\[
+$$
     \binom{n}{k} = \frac{n!}{k!(n-k)!}
-\\]
+$$
 
 Check this [source](https://cullaloe.com/render-latex-in-jekyll/), or [the project home page](https://katex.org), to check it out!
