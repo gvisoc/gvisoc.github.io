@@ -13,4 +13,4 @@ $$
     \binom{n}{k} = \frac{n!}{k!(n-k)!}
 $$
 
-Check this [source](https://cullaloe.com/render-latex-in-jekyll/), or [the project home page](https://katex.org), to check it out!
+Visit this [blog post by Nick Hood](https://cullaloe.com/render-latex-in-jekyll/) or [the KaTeX project home page](https://katex.org) to check it out!
