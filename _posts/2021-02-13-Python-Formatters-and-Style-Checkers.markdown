@@ -16,7 +16,7 @@ TL;DR: check [this repo](https://github.com/gvisoc/python-project-template).
 
 Having a consistent code style not only benefits the code readability, the Developer Experience, and the cohesion of the source code as a documentation source, but also prevents serious issues in Git. The eternal war between the tabs and the spaces, very personal code editor preferences, the line width, the kind of quotes used,... and a range of cosmetic changes to the code will make tools like Git detect false changes, that is, changes in the source code that don't contribute to the functionality. 
 
-These false changes will get the team closer to the merge-hell situations: at the end of a sprint, thousands of meaningless format changes are submitted alongside the real ones. Those would make the code visually inconsistent, and the whole contribution needs to be either rejected, or processed manually.
+These false changes can get a team very close to the merge-hell situations: at the end of a sprint, thousands of meaningless format changes are submitted alongside the real ones. Those would make the code visually inconsistent, and the whole contribution needs to be either rejected, or processed manually.
 
 A way to avoid the above situations is the use of a code formatter and a style checker in the project. Wire them in such a way that if a developer tries to contribute changes that don't respect the code style of the project, then: 
 - the formatter attempts to fix the code modifying the files,
