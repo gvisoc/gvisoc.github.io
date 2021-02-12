@@ -18,6 +18,11 @@ Having a consistent code style not only benefits the code readability, the Devel
 
 These false changes will get the team closer to the merge-hell situations where, at the end of a sprint, there are thousands of changes to merge and hundreds of them are meaningless format changes that makes everything difficult and visually inconsistent, and the whole contribution needs to be either rejected, or processed manually.
 
-A way to avoid the above situations is the use of a code formatter and a style checker in the project, and wire them in such a way that if a developer tries to contribute changes that don't respect the code style of the project, the code is attempted to be automatically reformatted, and rejected automatically if after such attempt it's still not compliant.
+A way to avoid the above situations is the use of a code formatter and a style checker in the project, and wire them in such a way that if a developer tries to contribute changes that don't respect the code style of the project, then: 
+- the formatter attempts to fix the code modifying the files,
+- the style checker verifies the result, and
+- the commit operation for the changes is stopped.
+
+This way the user can repeat the tests, check the changes, fix any outstanding issue, and later on repeat the process. 
 
 For Python, [Black](https://github.com/psf/black) and [Flake8](https://flake8.pycqa.org/en/latest/) are usual suspects. I came across a way to automate them in the pre-commit stage of Git, described in [this post by LJ Miranda](https://ljvmiranda921.github.io/notebook/2018/06/21/precommits-using-black-and-flake8/). I have consolidated all those in a [Python Project Template](https://github.com/gvisoc/python-project-template) at my GitHub account, with some more documentation and links, and it is ready to clone and reuse.
