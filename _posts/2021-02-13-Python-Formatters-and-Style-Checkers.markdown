@@ -18,7 +18,7 @@ Having a consistent code style not only benefits the code readability, the Devel
 
 These false changes can get a team very close to the merge-hell situations: at the end of a sprint, thousands of meaningless format changes are submitted alongside the real ones. Those would make the code visually inconsistent, and the whole contribution needs to be either rejected, or processed manually in a painful process that can take hours.
 
-A way to avoid the above situations is the use of a code formatter and a style checker in the project. Wire them in such a way that if a developer tries to contribute changes that don't respect the code style of the project, then: 
+A way to avoid the above situations is to select and enforce the use of a code formatter and a style checker. Configure them with the project standards and wire them in such a way that if a developer tries to contribute changes that don't respect the code style of the project, then: 
 - the formatter attempts to fix the code modifying the files,
 - the style checker verifies the result, and
 - the commit operation for the changes is stopped for human review.
