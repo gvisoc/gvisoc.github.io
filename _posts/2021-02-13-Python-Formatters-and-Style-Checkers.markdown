@@ -7,11 +7,11 @@ tags:
 - Git
 excerpt_separator: <!--more-->
 ---
+TL;DR: check [this repo](https://github.com/gvisoc/python-project-template).
+
 Working in a software project, as part of a team, has quite a few challenges. Other than the cultural side of things, timezone differences, remote work, communication tools, and sharing the knowledge across the team members, there are a lot of technical bits that can create a lot of issues and friction at the source code level.
 
 One of this bits can be the lack of a set of code style conventions and their enforcement.
-
-TL;DR: check [this repo](https://github.com/gvisoc/python-project-template).
 <!--more-->
 
 Having a consistent code style not only benefits the code readability, the Developer Experience, and the cohesion of the source code as a documentation source, but also prevents serious issues in Git. The eternal war between the tabs and the spaces, very personal code editor preferences, the line width, the kind of quotes used,... and a range of cosmetic changes to the code will make tools like Git detect false changes, that is, changes in the source code that don't contribute to the functionality. 
