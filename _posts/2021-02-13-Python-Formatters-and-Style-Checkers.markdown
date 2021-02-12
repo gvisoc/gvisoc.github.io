@@ -18,11 +18,15 @@ Having a consistent code style not only benefits the code readability, the Devel
 
 These false changes can get a team very close to the merge-hell situations: at the end of a sprint, thousands of meaningless format changes are submitted alongside the real ones. Those would make the code visually inconsistent, and the whole contribution needs to be either rejected, or processed manually in a painful process that can take hours.
 
-A way to avoid the above situations is to select and enforce the use of a code formatter and a style checker. Configure them with the project standards and wire them in such a way that if a developer tries to contribute changes that don't respect the code style of the project, then: 
-- the formatter attempts to fix the code modifying the files,
-- the style checker verifies the result, and
-- the commit operation for the changes is stopped for human review.
+A way to avoid the above situations is the following:
 
-This way the user can re-run the tests, inspect the style changes y the formatter, fix any outstanding issue, and try again. 
+- Select and enforce the use of a code formatter and a style checker. 
+- Configure them with the project standards, and distribute such configuratons across the team members. 
+- Last, but not least, make sure that they are wired with the build tools in such a way that when a developer tries to contribute changes, then: 
+  - the formatter ingest the changed files and reformats the code if needed,
+  - the style checker verifies the result, and
+  - if either the formatter changed a file, or the checker failed, the commit operation for the changes is stopped for human review.
+
+This way the user can re-run the tests, inspect the style changes y the formatter, fix any outstanding issue, and try again. The code will only be committed when the formater has nothing to do and the style check passes.
 
 For Python, [Black](https://github.com/psf/black) and [Flake8](https://flake8.pycqa.org/en/latest/) are usual suspects. I came across a way to automate them in the pre-commit stage of Git, described in [this post by LJ Miranda](https://ljvmiranda921.github.io/notebook/2018/06/21/precommits-using-black-and-flake8/). I have consolidated all those in a [Python Project Template](https://github.com/gvisoc/python-project-template) at my GitHub account, with some more documentation and links, and it is ready to clone and reuse.
