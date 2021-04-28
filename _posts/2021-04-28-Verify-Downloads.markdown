@@ -133,23 +133,23 @@ To download Philip Müller's keys from a public PGP Key Server, use the followin
 ```
 $ gpg --keyserver hkp://pool.sks-keyservers.net --search-keys 11C7F07E
 gpg: data source: http://194.95.66.28:11371
-(1)	Philip Müller (Called Little) <philm@manjaro.org>
+(1)	Philip Müller (Called Little) <REDACTED@manjaro.org>
 	  2048 bit RSA key CAA6A59611C7F07E, created: 2012-05-05
 Keys 1-1 of 1 for "11C7F07E".  Enter number(s), N)ext, or Q)uit > 1
-gpg: key CAA6A59611C7F07E: "Philip Müller (Called Little) <philm@manjaro.org>" not changed
+gpg: key CAA6A59611C7F07E: "Philip Müller (Called Little) <REDACTED@manjaro.org>" not changed
 gpg: Total number processed: 1
 gpg:              unchanged: 1
 ```
 
 Note that `Enter number(s), N)ext, or Q)uit >` is an actual prompt and we have to select the key, `1` in this case. Pay attention to the `CAA6A59611C7F07E` part: is an identifier for the key. Another thing to note is that the string we used to search the key (`11C7F07E`) is part of the key identifier. The lower part of a key's ID is often referred to as "short identifier of the key" for obvious reasons.
 
-The keys can also be searched by some other identificative fields, for example an email:
+The keys can also be searched by some other identificative fields, for example an email (real email omitted for privacy reasons!):
 
 ```
-$ gpg --keyserver hkp://pool.sks-keyservers.net --search-keys "philm@manjaro.org"
+$ gpg --keyserver hkp://pool.sks-keyservers.net --search-keys "REDACTED@manjaro.org"
 
 gpg: data source: http://194.95.66.28:11371
-(1)	Philip Müller (Called Little) <philm@manjaro.org>
+(1)	Philip Müller (Called Little) <REDACTED@manjaro.org>
 	  2048 bit RSA key CAA6A59611C7F07E, created: 2012-05-05
 ...
 ```
@@ -189,10 +189,10 @@ Within the output of this command we can see all the public keys we have in our 
 pub   rsa3072 2020-10-28 [SC] [expires: 2022-10-28]
       3B794DE6D4320FCE594F4171279E7CF5D8D56EC8
 uid           [ unknown] Manjaro Build Server <build@manjaro.org>
-sig!         8238651DDF5E0594 2020-10-29  Matti Hyttinen <matti@manjaro.org>
-sig!         DAD3B211663CA268 2020-10-29  Bernhard Landauer <oberon@manjaro.org>
-sig!         084A7FC0035B1D49 2020-10-29  Dan Johansen (Manjaro) <strit@manjaro.org>
-sig!         CAA6A59611C7F07E 2020-10-29  Philip Müller (Called Little) <philm@manjaro.org>
+sig!         8238651DDF5E0594 2020-10-29  Matti Hyttinen <REDACTED@manjaro.org>
+sig!         DAD3B211663CA268 2020-10-29  Bernhard Landauer <REDACTED@manjaro.org>
+sig!         084A7FC0035B1D49 2020-10-29  Dan Johansen (Manjaro) <REDACTED@manjaro.org>
+sig!         CAA6A59611C7F07E 2020-10-29  Philip Müller (Called Little) <REDACTED@manjaro.org>
 sig!3        279E7CF5D8D56EC8 2020-10-28  Manjaro Build Server <build@manjaro.org>
 sub   rsa3072 2020-10-28 [E] [expires: 2022-10-28]
 sig!         279E7CF5D8D56EC8 2020-10-28  Manjaro Build Server <build@manjaro.org>
