@@ -67,13 +67,13 @@ What happened here is that the program `sha256sum` checked (`-c`) that the refer
 75b9f844c22c98d4da33e64b6c7c49e8b4d0d94a438e4f8ce976e7e54b40a682  codium-1.55.2-1618361370.el8.x86_64.rpm
 ```
 
-That line is a "properly formatted SHA256 checksum line", which is built by a SHA256 hash, two (2) spaces, and the name of the file the hash was calculated from in the server. From there, the check `sha256 sum -c` performs is just to find a file that has the same name as in that line, calculate its SHA256 hash, and compare it with the first part of the line.
+That line is a "properly formatted SHA256 checksum line", which is built by a SHA256 hash, two (2) spaces, and the name of the file the hash was calculated from in the server. From there, the check `sha256sum -c` performs is just to find a file that has the same name as in that line, calculate its SHA256 hash, and compare it with the first part of the line.
 
 In this case the verification was complete and correct. 
 
 A file like that can have plenty of lines, not just one, and `sha256sum -c` will run all the checks in a batch.
 
-Another possibility can be to have only the file to download, and the sha256 line in the website, for you to see. In that case, we'd download the file and get the SHA256 locally by executing the `sha256sum` over the downloaded file, without `-c`:
+Another possibility can be to have only the file to download, and the SHA256 line in the website, for you to see. In that case, we'd download the file and get the SHA256 locally by executing the `sha256sum` over the downloaded file, without `-c`:
 
 ```
 $ sha256sum codium-1.55.2-1618361370.el8.x86_64.rpm
@@ -111,7 +111,7 @@ Here's what we need to do to check a signature with a real example, a Manjaro GN
 **Second**: **Check the hash** as we discussed earlier in this post, to make sure that the package is uncorrupted. In this case we need to compute the hash and compare it visually with the reference one, present in the download page.
 
 ```
-$ sha1 manjaro manjaro-xfce-21.0.2-210419-linux510.iso
+$ sha1sum manjaro manjaro-xfce-21.0.2-210419-linux510.iso
 7d9d5d886188ebb0a05c9ceeabdb068fb2544feb  manjaro-xfce-21.0.2-210419-linux510.iso
 ```
 
