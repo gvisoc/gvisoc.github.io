@@ -11,6 +11,8 @@ As of two days ago, this site is absolutely free of cookies. There is no trackin
 
 ![No cookies! Yay!](/assets/no-cookies.png)
 
-The only cookie that this blog had since I removed the comments system (it was a tracking beast!) was couldflare's `__cfduid`. [They have deprecated it on May 10th](https://blog.cloudflare.com/deprecating-cfduid-cookie/), and the remaining existing cookies that are still alive would expire by June 9th.
+The only cookie that this blog had since I removed the comments system (it was a tracking beast!) was couldflare's `__cfduid`. [They have deprecated it on May 10th](https://blog.cloudflare.com/deprecating-cfduid-cookie/).
 
-If you want to know more about how this site is done and where is it hosted to achieve zero tracking of you, check [this previous blog post](https://gvisoc.com/this%20site/personal/2020/01/04/This-Site-is-Still-Up-And-Running.html). TL;DR: Jekyll on GitHub Pages and no comments, no third party plugins or social integrations.
+If you want to know more about how this site is done, and where is it hosted, check [this previous blog post](https://gvisoc.com/this%20site/personal/2020/01/04/This-Site-is-Still-Up-And-Running.html). 
+
+*TL;DR: Jekyll on GitHub Pages and no comments, no third party plugins or social integrations.*
