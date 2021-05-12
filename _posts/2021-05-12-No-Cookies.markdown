@@ -11,7 +11,7 @@ As of two days ago, this site is absolutely free of cookies. There is no trackin
 
 ![No cookies! Yay!](/assets/no-cookies.png)
 
-The only cookie that this blog had since I removed the comments system (it was a tracking beast!) was Clouldflare's `__cfduid`. [They have deprecated it on May 10th](https://blog.cloudflare.com/deprecating-cfduid-cookie/).
+The only cookie that this blog has had since I removed the comments system (it was a tracking beast!) was Clouldflare's `__cfduid`. [They have deprecated it on May 10th](https://blog.cloudflare.com/deprecating-cfduid-cookie/).
 
 If you want to know more about how this site is done, and where is it hosted, check [this previous blog post](https://gvisoc.com/this%20site/personal/2020/01/04/This-Site-is-Still-Up-And-Running.html). 
 
