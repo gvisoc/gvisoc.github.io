@@ -11,11 +11,11 @@ excerpt_separator: <!--more-->
 When we download software, we need to verify two things:
 
 - The integrity of the software we have just downloaded. 
-- The autenticity of the package.
+- The authenticity of the package.
 
 Checking these two things will ensure that the download went well, and that the software is authentic (and not malware, for example).
 
-![Verifying the integrity and autenticity of a Manjaro ISO](/assets/manjaro.gif)
+![Verifying the integrity and authenticity of a Manjaro ISO](/assets/manjaro.gif)
 
 <!--more-->
 For the impatient, here is the process assuming that we have downloaded:
@@ -87,7 +87,7 @@ When the checksums are correct, we are sure that the download went well, **but n
 # Checking the Authorship and Authenticity of the Software
 If we don't trust the Software Publisher, that is to say, the website or the server we downloaded the package from, then checking the integrity of the download is not enough. The Publisher could have offered anything else in that file, and calculate a perfect valid reference checksum for a counterfeit package. 
 
-In such case of distrust, we want to check the software authorship, and therefore its autenticity. We can do that by obtaining a cryptographic signature of the package, created by the Software Author, and verifying it cryptographically.
+In such case of distrust, we want to check the software authorship, and therefore its authenticity. We can do that by obtaining a cryptographic signature of the package, created by the Software Author, and verifying it cryptographically.
 
 There are many cryptographic signature mechanisms and algorithms, but here we will focus on signatures produced using asymmetric cryptography because they are the ones used most often, if not the only ones used to sign software.
 
@@ -177,7 +177,7 @@ Primary key fingerprint: 3B79 4DE6 D432 0FCE 594F  4171 279E 7CF5 D8D5 6EC8
 
 In this case, the signing key was one of the keys present in the file `manjaro.gpg`, the one for the *Manjaro Build Server* with identifier `3B794DE6D4320FCE594F4171279E7CF5D8D56EC8`. The verification process was correct, so we need that something called *Manjaro Build Server* is the creator of the ISO we've just downloaded.
 
-**Fifth**: If we want to check the autenticity of such *Manjaro Build Server* dude, we can do so by validating its key using Philip Müller's key (provided we  trust him). That can be done by check the *web of trust* for Manjaro Build Server key, and see whether Philip is part of that web of trust. For this one, issue the following command:
+**Fifth**: If we want to check the authenticity of such *Manjaro Build Server* dude, we can do so by validating its key using Philip Müller's key (provided we  trust him). That can be done by check the *web of trust* for Manjaro Build Server key, and see whether Philip is part of that web of trust. For this one, issue the following command:
 
 ```
 $ gpg --list-public-keys --with-sig-check
