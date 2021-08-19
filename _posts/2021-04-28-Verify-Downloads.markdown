@@ -2,7 +2,7 @@
 layout: post
 title: Verify Your Downloads!
 date: 2021-04-28 21:30
-tags:
+categories:
 - security
 - linux
 excerpt_separator: <!--more-->

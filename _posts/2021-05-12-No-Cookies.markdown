@@ -2,7 +2,7 @@
 layout: post
 title: This Site Has Zero Cookies
 date: 2021-05-12 9:00
-tags:
+categories:
 - privacy
 - this site
 excerpt_separator: <!--more-->

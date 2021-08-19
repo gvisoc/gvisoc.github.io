@@ -3,7 +3,7 @@ layout: post
 title: Render LaTeX in Jekyll Pages
 date: 2021-02-09 12:24
 katex: yes
-tags:
+categories:
 - Jekyll
 - LaTeX
 ---
