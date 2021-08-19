@@ -7,7 +7,6 @@ categories:
   - "linux"
 excerpt_separator: <!--more-->
 ---
-# Manjaro Post-Install
 Although Manjaro is one of the GNU/Linux distributions that I found to be more frictionless for me, it is not exempt of some actions to do upon a fresh installation in oder to have it ready to go.
 
 This post covers the following:
