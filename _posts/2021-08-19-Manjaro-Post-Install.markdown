@@ -7,7 +7,7 @@ categories:
 - linux
 excerpt_separator: <!--more-->
 ---
-Although Manjaro is one of the GNU/Linux distributions that I found to be more frictionless for me, it is not exempt of some actions to do upon a fresh installation in oder to have it ready to go.
+Although Manjaro is one of the GNU/Linux distributions that I find to be more frictionless for me, it still need some for some actions to be done after a fresh installation.
 
 This post covers the following:
 
