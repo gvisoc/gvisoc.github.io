@@ -3,7 +3,7 @@ layout: post
 title:  "There is no security by default"
 date:   2018-10-19 18:29:00 +1100
 categories:
-  - "security"
+  - security
 excerpt_separator: <!--more-->
 ---
 *Security and safety by default* are things that many people claim that technology should provide, some sort of baseline requirement for any digital product or electronic device. I profoundly believe that such a statement is naive and unrealistic. It is merely an excuse to avoid our own responsibilities. We have not been succesful when it comes to provide security and safety by default in anything, no matter how old and established is the practice or the objects we designed, so, how could we pretend to make something that is not even one hundred years old, secure or safe by default?

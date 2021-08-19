@@ -3,8 +3,8 @@ layout: post
 title:  "From macOS to Plasma: Making Myself at Home"
 date:   2020-06-27 12:20:00 +1000
 categories:
-  - "personal"
-  - "linux"
+  - personal
+  - linux
 excerpt_separator: <!--more-->
 ---
 I have been a Mac user for the last few years and, while I have been a GNU/Linux user for more than 22, I have to say that some of the macOS desktop conventions very well matched my needs, and rooted very deep in my work-related workflows, carving themselves into my brain.

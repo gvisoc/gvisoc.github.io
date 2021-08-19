@@ -3,8 +3,8 @@ layout: post
 title:  "This Site is Still Up And Running"
 date:   2020-01-04 17:30:00 +1100
 categories:
-  - "this site"
-  - "personal"
+  - this site
+  - personal
 excerpt_separator: <!--more-->
 ---
 It's been a while since I started this website in 2018, using a very simple setup with [Jekyll](https://jekyllrb.com/) on [GitHub Pages](https://pages.github.com/). I haven't used it very much, namely I've written 4 posts in these, almost, 2 years. Indeed, the previous post is exactly one year old today! I'm back to it because I miss a space in where I can share my thoughts on a subject, my conclusions after some specific chain of events, studies, experiments or personal projects (if they don't die after a few weeks, which is often the case). Or if I have a position on something on the news, or if *I just want to share content*. 

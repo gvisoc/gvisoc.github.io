@@ -3,8 +3,8 @@ layout: post
 title:  "Installing Linux with Secure Boot and Friends"
 date:   2020-06-15 10:55:00 +1000
 categories:
-  - "tech"
-  - "linux"
+  - tech
+  - linux
 excerpt_separator: <!--more-->
 ---
 

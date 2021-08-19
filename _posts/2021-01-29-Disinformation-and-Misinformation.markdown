@@ -3,7 +3,7 @@ layout: post
 title:  "Disinformation and Misinformation"
 date:   2021-01-29 12:02:00 +1100
 categories:
-  - "fake news"
+  - fake news
 excerpt_separator: <!--more-->
 ---
 I came across a very fine example of how precise language can be.
