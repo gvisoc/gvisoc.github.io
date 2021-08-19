@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /categories/
-title: Browse by Categories
+title: Browse All Categories
 ---
 
 
