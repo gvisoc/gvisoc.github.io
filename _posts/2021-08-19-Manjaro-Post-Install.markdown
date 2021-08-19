@@ -144,4 +144,4 @@ systemctl status cronie
 journalctl -b -u cronie
 ```
 
-Nevertheless, as Manjaro is a rolling release distribution, it's recommended to complete the Timeshift set up by installing the package `timeshift-autosnap-manjaro`. This package will add a call to TimeShift for it to create a snapshot before installing new packages or updating the system.
+Nevertheless, as Manjaro is a rolling release distribution, it's recommended to complete the TimeShift set up by installing the package `timeshift-autosnap-manjaro`. This package will add a call to TimeShift for it to create a snapshot before installing new packages or updating the system.
