@@ -46,6 +46,7 @@ tp-smapi   = inactive (ThinkPad not supported)
 ...
 $ ~
 ```
+Funny enough, the module `tp-smapi` is only supported by older ThinkPads, but `tlp` says "ThinkPad not supported" in a very strong way.
 
 ## Install VA-API support
 VA-API is the hardware video codec technology present in AMD GPUs and Intel integrated GPU for 8th Gen. and newer processors.
@@ -128,7 +129,7 @@ for:
 Install and configure *Backups* and *TimeShift*.
 
 - **Backups** is the user friendly name of the tandem Duplicity & Dejà-Dup. This one is useful to backup the user home directories and its behaviour is similar to Apple's Time Machine or Microsoft's File History, with its differences and limitations in some cases. 
-- **TimeShift** is useful to have system snapshots and be able to roll back a broken system to a healthy status. Similar to Mac's Carbon Copy Cloner or Super Duper but based on either `rsync` or `brtfs`; each backend with its pros and cons. Although it can snapshot the whole disk contents, the program recommends to exclude the user home directories to save space in the snapshots, which may or may not make sense depending on the user. That's why we also use the previous one.
+- **TimeShift** is useful to have system snapshots and be able to roll back a broken system to a healthy status. In its recovery capabilities it can be seen as similar to Mac's Carbon Copy Cloner or Super Duper, but based on either `rsync` or `brtfs`; each backend has its benefits and drawbacks that won't be covered here. Although TimeShift can snapshot the whole disk contents, the program recommends to exclude the user home directories to save space in the snapshots, which may or may not make sense depending on the user. That's why I also use the previous one.
 
 Timeshift uses *cron* to schedule snapshots. Manjaro uses cron's backwards-compatible successor *cronie*, but apparently it is not enabled by default after the installation, so TimeShift's shnapshots won't happen automatically. 
 
