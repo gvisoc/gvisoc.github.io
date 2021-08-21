@@ -124,6 +124,7 @@ for:
 }
 
 ```
+For the emojis to show in the integrated terminal, go to settings (`Ctrl + ,`) and search for the option **Terminal › Integrated: Font Family**. In its text field, type the name of the Font shown in Gnome Terminal's Settings, that is `NotoSansMono Nerd Font` on August 19th 2021. Leave the font size alone, as this program measures the font size in pixels, as opposed to in points like Gnome Terminal and other programs.
 
 ## Backups
 Install and configure *Backups* and *TimeShift*.
