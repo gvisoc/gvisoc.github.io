@@ -25,7 +25,7 @@ For the impatient, here is the process assuming that we have downloaded:
 - A file containing the signature of the Software Author; in the example, `software.sig`
 - The public keys of the Software Author; in the example, `author.gpg`
 
-```
+```bash
 $ sha256sum -c software.pkg.sha256          # 1. Check the download integrity
 $ gpg --import author.gpg                   # 2a) Import downloaded public keys
 $ gpg --keyserver hkp://<server> \
@@ -47,7 +47,7 @@ In order to calculate a checksum we only need the file itself, and the right pro
 
 For example, if we go to the [downloads page](https://github.com/VSCodium/vscodium/releases) for [VSCodium](https://vscodium.com/), a fully Open Source version of Visual Studio Code, we can see that for every package there is an extra file, ending in `.sha256`:
 
-```
+```bash
 codium-1.55.2-1618361370.el8.x86_64.rpm
 codium-1.55.2-1618361370.el8.x86_64.rpm.sha256
 ```
@@ -56,14 +56,14 @@ This extra file contains the reference checksum calculated over the server's fil
 
 The idea is to download both files to the same directory, and run the following command `sha256sum -c` over the checksums file:
 
-```
+```bash
 $ sha256sum -c codium-1.55.2-1618361370.el8.x86_64.rpm.sha256 
 codium-1.55.2-1618361370.el8.x86_64.rpm: OK
 ```
 
 What happened here is that the program `sha256sum` checked (`-c`) that the reference checksums present in the file `codium-1.55.2-1618361370.el8.x86_64.rpm.sha256` could be calculated locally using the downloaded file. The `.sha256` file content is the following:
 
-```
+```bash
 75b9f844c22c98d4da33e64b6c7c49e8b4d0d94a438e4f8ce976e7e54b40a682  codium-1.55.2-1618361370.el8.x86_64.rpm
 ```
 
@@ -75,7 +75,7 @@ A file like that can have plenty of lines, not just one, and `sha256sum -c` will
 
 Another possibility can be to have only the file to download, and the SHA256 line in the website, for you to see. In that case, we'd download the file and get the SHA256 locally by executing the `sha256sum` over the downloaded file, without `-c`:
 
-```
+```bash
 $ sha256sum codium-1.55.2-1618361370.el8.x86_64.rpm
 75b9f844c22c98d4da33e64b6c7c49e8b4d0d94a438e4f8ce976e7e54b40a682  codium-1.55.2-1618361370.el8.x86_64.rpm
 ```
@@ -110,7 +110,7 @@ Here's what we need to do to check a signature with a real example, a Manjaro GN
 
 **Second**: **Check the hash** as we discussed earlier in this post, to make sure that the package is uncorrupted. In this case we need to compute the hash and compare it visually with the reference one, present in the download page.
 
-```
+```bash
 $ sha1sum manjaro manjaro-xfce-21.0.2-210419-linux510.iso
 7d9d5d886188ebb0a05c9ceeabdb068fb2544feb  manjaro-xfce-21.0.2-210419-linux510.iso
 ```
@@ -121,7 +121,7 @@ It verifies, so let's go with the GPG signature.
 
 First, we download and import the Manjaro general keys.
 
-```
+```bash
 $ wget https://[url to the manjaro keys]/manjaro.gpg -O manjaro.gpg
 $ gpg --import manjaro.gpg
 ```
@@ -130,7 +130,7 @@ On April 28th 2021 this imported 22 keys into the keyring, allowing us to verify
 
 To download Philip Müller's keys from a public PGP Key Server, use the following:
 
-```
+```bash
 $ gpg --keyserver hkp://pool.sks-keyservers.net --search-keys 11C7F07E
 gpg: data source: http://194.95.66.28:11371
 (1)	Philip Müller (Called Little) <REDACTED@manjaro.org>
@@ -145,7 +145,7 @@ Note that `Enter number(s), N)ext, or Q)uit >` is an actual prompt and we have t
 
 The keys can also be searched by some other identificative fields, for example an email (real email omitted for privacy reasons!):
 
-```
+```bash
 $ gpg --keyserver hkp://pool.sks-keyservers.net --search-keys "REDACTED@manjaro.org"
 
 gpg: data source: http://194.95.66.28:11371
@@ -156,7 +156,7 @@ gpg: data source: http://194.95.66.28:11371
 
 The key ID identifies the pair of keys, not just the Public Key. It is important to know the ID of key pair, as it is the only way to really identify a key used to produce a signature and therefore the key needed to verify it. There can be many keys for a single email address, not all of them legit. The way to know the key needed to verify a signature is try to verify it without importing any key, as it will output the ID of the key pair that was used:
 
-```
+```bash
 gpg: Signature made Mon 19 Apr 2021 18:47:28 AEST
 gpg:                using RSA key 3B794DE6D4320FCE594F4171279E7CF5D8D56EC8
 gpg: Can't check signature: No public key
@@ -165,7 +165,7 @@ gpg: Can't check signature: No public key
 
 **Fourth**: If the download of the iso verified the hash on previous steps, then check the signatures:
 
-```
+```bash
 $ gpg --verify manjaro-xfce-21.0.2-210419-linux510.iso.sig  manjaro-xfce-21.0.2-210419-linux510.iso
 gpg: Signature made Mon 19 Apr 2021 18:47:28 AEST
 gpg:                using RSA key 3B794DE6D4320FCE594F4171279E7CF5D8D56EC8
@@ -179,13 +179,13 @@ In this case, the signing key was one of the keys present in the file `manjaro.g
 
 **Fifth**: If we want to check the authenticity of such *Manjaro Build Server* dude, we can do so by validating its key using Philip Müller's key (provided we  trust him). That can be done by check the *web of trust* for Manjaro Build Server key, and see whether Philip is part of that web of trust. For this one, issue the following command:
 
-```
+```bash
 $ gpg --list-public-keys --with-sig-check
 ```
 
 Within the output of this command we can see all the public keys we have in our keyring, and who has signed them. Signing a Public Key with your own secret key is, in this context, the ultimate vouching act. In the case of the Manjaro Build Server, which we can identify by looking at its identifier, we can see that within its signers there is Philip Müller (the ID is the same previously imported `CAA6A59611C7F07E`):
 
-```
+```bash
 pub   rsa3072 2020-10-28 [SC] [expires: 2022-10-28]
       3B794DE6D4320FCE594F4171279E7CF5D8D56EC8
 uid           [ unknown] Manjaro Build Server <build@manjaro.org>
