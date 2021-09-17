@@ -11,12 +11,13 @@ Although Manjaro is one of the GNU/Linux distributions that I find to be more fr
 
 This post covers the following:
 
-- Install additional modules for a modern ThinkPad.
+- Install additional modules for a modern ThinkPad
 - Enable VA-API support for an Intel 8th Gen's integrated GPU
 - Configure local hosts
 - Set up certificates and cryptographic keys
 - Set up VS Codium / Visual Studio Code - OSS
 - Set up user backup and system snapshots
+- Set up network printers
 
 <!--more-->
 ## Install Power Management Modules (`acpi_call`)
@@ -147,3 +148,21 @@ journalctl -b -u cronie
 ```
 
 Nevertheless, as Manjaro is a rolling release distribution, it's recommended to complete the TimeShift set up by installing the package `timeshift-autosnap-manjaro`. This package will add a call to TimeShift for it to create a snapshot before installing new packages or updating the system.
+
+## Network Printers
+On a regular Manjaro installation, the CUPS service should be up and running; otherwise check the distribution for indications on how to install it.
+
+Once we have CUPS already set, a printer needs to be added to it. Despite CUPS may be able to discover the printer through the network, we may still need to provide and a `PPD` file that is also referred to as "CUPS Wrapper". That file is generally made available by the vendor, and needs to be, either:
+
+- manually uploaded to CUPS through the user interface at `http://localhost:631`, or
+- installed as a system driver
+
+In my case, the printer I have has a driver in AUR. In other case, we may be able to download a generic Linux driver from the vendor, and unpack it to see if they have included the PPD.
+
+Next, we need to make the printer reachable through the network. This may need some static hosts configuration in the machine (`/etc/hosts`) and in the router, for the DHCP lease to be static. Two entries need to be configured: the printer host and the queue:
+
+```bash
+192.168.0.20 BC8385F20595P      # printer host
+192.168.0.21 BRWE86F38342AA1    # printer queue
+```
+Last thing to note is that the default options we set up in CUPS through the web interface are only applied if we print against "LPR" in the list of printers; if we choose the full named printer, we still need to manually set options like duplex, quality, etc.
