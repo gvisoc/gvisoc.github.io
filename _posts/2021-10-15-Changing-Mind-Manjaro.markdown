@@ -26,6 +26,6 @@ To summarise:
 
 This last point was the reason behild the warnings I was referring at the begining of this post.
 
-As I find the overall problem a result of a overall bad practice and worse communication from Manjaro, I have decided to step away from this distribution and re-think.
+As I find the overall problem a result of an overall bad practice and worse communication from Manjaro, I have decided to step away from this distribution and re-think.
 
 Yesterday I begun trying Fedora 34 instead of falling back to Debian (sort of my lifelong system), and it feels good for now. It looks also a much better fit for my laptop, as I didn't have to do as much [post-install tinker as with Manjaro](https://gvisoc.com/personal/linux/2021/08/19/Manjaro-Post-Install.html).
