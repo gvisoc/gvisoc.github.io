@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 ---
 I've changed my mind about Manjaro.
 
-About two weeks ago I noticed with some warnings where `pacman`, the CLI package management tool, was warning me about a couple of installed packages that were newer than the ones available in the repositories. 
+About two weeks ago I noticed some warnings where `pacman`, the CLI package management tool, was warning me about a couple of installed packages that were newer than the ones available in the repositories. 
 
 How that could be? Where did those packages come from, if not from Manjaro official repositories? And why were they *newer*? 
 <!--more-->
