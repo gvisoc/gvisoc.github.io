@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I've changed my mind about Manjaro"
+title:  "I've Changed my Mind About Manjaro. Hello, Fedora!"
 date:   2021-10-15 10:20:00 +1000
 categories:
 - personal
