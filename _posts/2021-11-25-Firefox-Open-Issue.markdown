@@ -6,14 +6,15 @@ categories:
 - linux
 excerpt_separator: <!--more-->
 ---
-![Firefox is already running, but is not responding. To use Firefox, you must first close the existing Firefox process, restart your device, or use a different profile.](/assets/firefox_remote.png)
-<!--more-->
-
 Firefox is my browser of choice. With the latest versios of the browser and of Gnome, it is not working as expected when clicking a link from another application.
 
 If Firefox is already running, and you click on a link in any other application, such link should open in a new tab. Instead, you can get the following error:
 
 >Firefox is already running, but is not responding. To use Firefox, you must first close the existing Firefox process, restart your device, or use a different profile.
+
+![Firefox is already running, but is not responding. To use Firefox, you must first close the existing Firefox process, restart your device, or use a different profile.](/assets/firefox_remote.png)
+
+<!--more-->
 
 This is solved with the following lines in `/etc/environment`:
 
