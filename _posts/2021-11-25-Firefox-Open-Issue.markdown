@@ -6,7 +6,7 @@ categories:
 - linux
 excerpt_separator: <!--more-->
 ---
-Firefox is my browser of choice. With the latest versios of the browser and of Gnome, it is not working as expected when clicking a link from another application.
+Firefox is my browser of choice. With the latest versions of the browser and of Gnome, it is not working as expected when clicking a link from another application.
 
 If Firefox is already running, and you click on a link in any other application, such link should open in a new tab. Instead, you can get the following error:
 
