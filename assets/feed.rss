@@ -1,0 +1,44 @@
+<rss version="2.0">
+<channel>
+<atom:link href="//podcast.haciafalta.com/index.rss" rel="self" type="application/rss+xml"/>
+<title>HacíaFalta</title>
+<link>https://haciafalta.com</link>
+<language>es-ES</language>
+<copyright>(c) 2022-2022 - Gabriel Viso Carrera</copyright>
+<itunes:subtitle>Rundown</itunes:subtitle>
+<itunes:author>Gabriel Viso Carrera<itunes:author>
+<itunes:summary>Rundown Test Feed.</itunes:summary>
+<description>
+This is a dummy feed to support the development of Rundown
+</description>
+<itunes:owner>
+<itunes:name>Rundown</itunes:name>
+<itunes:email>gabriel@gvisoc.com</itunes:email>
+</itunes:owner>
+<itunes:image href="https://gvisoc.com/favicon.png"/>
+<itunes:category text="Technology"/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:keywords>
+Podcasting, Encoder, IDv3
+</itunes:keywords>
+<pubDate>Tue, 22 Feb 2022 00:00:00 +1100</pubDate>
+<lastBuildDate>Tue, 22 Feb 2022 00:00:00 +1100</lastBuildDate>
+<item>
+<title>#1: Introducing Rundown</title>
+<description>
+Feed to test Rundown.
+</description>
+<pubDate>Wed, 02 Feb 2022 23:23:00 +0100</pubDate>
+<enclosure url="https://gvisoc.com/assets/introducing.mp3" type="audio/mpeg" length="20591196"/>
+<author>Gabriel Viso Carrera</author>
+<itunes:author>Gabriel Viso Carrera</itunes:author>
+<link>
+https://gvisoc.com
+</link>
+<itunes:episode>242</itunes:episode>
+<itunes:duration>1710</itunes:duration>
+<itunes:explicit>clean</itunes:explicit>
+<guid isPermaLink="false">59ea599bb2ec5050f758e8bfe23ad99b</guid>
+<itunes:image href="https://gvisoc.com/assets/introducing.png"/>
+</item>
+</channel>
