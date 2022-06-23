@@ -4,6 +4,9 @@ _site
 .jekyll-metadata
 .jekyll-cache
 
+# Ruby / rbenv
+.ruby-version
+
 # Various OS-generated files
 # macOS
 */.DS_Store
