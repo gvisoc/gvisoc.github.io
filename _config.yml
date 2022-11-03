@@ -86,9 +86,9 @@ minima:
     # keybase: jekyll
 
     # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
+    mastodon:
+    - username: gvisoc
+      instance: aus.social
     # - username: jekyll2
     #   instance: example.com
 
