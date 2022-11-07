@@ -87,8 +87,8 @@ minima:
 
     # Mastodon instances
     mastodon:
-    - username: gvisoc
-      instance: aus.social
+    - username: gabriel
+      instance: fedi.gvisoc.com
     # - username: jekyll2
     #   instance: example.com
 
