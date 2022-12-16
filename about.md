@@ -6,7 +6,7 @@ permalink: /about/
 
 Welcome!
 
-My name is Gabriel, I am a Software Architect from Spain, and I live in Sydney since 2017.
+My name is Gabriel, I am a Software Architect from Spain, and I live in Australia since 2017.
 
 This is my personal website, hosted at GitHub Pages. Here I write about tecnology, privacy and minimalism.
 
