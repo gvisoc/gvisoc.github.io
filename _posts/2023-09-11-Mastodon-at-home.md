@@ -52,7 +52,12 @@ Here's the thing.
 - From there, you are effectively saving a lot of money that you could use to support the projects around the network, or the instances you sympathise with.
 
 The only things that you need are: 
-- A domain in a domain provider that supports DDNS[^4], 
+- As said, a small computer with enough resources
+  - 4 GB of RAM, 60 GB or more of storage, 4 core is enough to get you up and running.
+  - In the medium term, if you're using an SD card for the system, attach some proper storage for high I/O load for performance and reliability. 
+  - Small SSD and USB 3.0 cases for them are very cheap.
+  - 🌱 Preferably, choose a low power device (ARM for example). Don't run Mastodon 24/7 on your gaming PC 🌷
+- A domain managed by a domain provider that supports DDNS[^4], 
 - Install `ddclient` (from [its GitHub repository](https://github.com/ddclient/ddclient)) on your machine, 
 - A router that supports NAT and that allow you to expose services at ports `80` and `443`.[^5]
 - A decent internet connection.[^6] 
