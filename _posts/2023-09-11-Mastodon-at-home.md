@@ -49,7 +49,7 @@ And, of course: your labour. You must keep not only Mastodon, but also the under
 Here's the thing. 
 - In 2 months, you would have spent more money than the cost of an ARM single board computer, like the Raspberry Pi[^3], that exceeds the aforementioned requirements (4GB, 4 core) *plus the electricity cost of running it*. 
 - In another 2-3 months, you can add to the pack an SSD drive of 500 GB to 1 TB, and externalise all the disk usage to it.
-- From there, you are effectively saving a lot of money that you could use to support the projects around the network, or the instances you simpathise with.
+- From there, you are effectively saving a lot of money that you could use to support the projects around the network, or the instances you sympathise with.
 
 The only things that you need are: 
 - A domain in a domain provider that supports DDNS[^4], 
