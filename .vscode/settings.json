@@ -1,0 +1,7 @@
+{
+    "editor.wordWrap": "wordWrapColumn",
+    "diffEditor.renderIndicators": false,
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn"
+    }
+}
