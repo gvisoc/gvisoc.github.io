@@ -61,7 +61,7 @@ The only things that you need are:
 - A router that supports NAT and that allow you to expose services at ports `80` and `443`.[^5]
 - A decent internet connection.[^6] 
 
-It obviously won't support more than a few friends and family members. But if your instance is personal, or one of those cases, the amount of extra work that you need to do by having the instance at home, compared to having it in a provider like Digital Ocean, is negligible. 
+It obviously won't support more than a few friends and family members. But if your instance is personal, or one of those cases, you'll be fine. The amount of extra work that you need to do by having the instance at home, compared to having it in a provider like Digital Ocean, is negligible. 
 
 And it's **heaps cheaper**.
 
