@@ -58,9 +58,9 @@ The only things that you need are:
   - 4 GB of RAM, 60 GB or more of storage, 4 core is enough to get you up and running.
   - In the medium term, if you're using an SD card for the system, attach some proper storage for high I/O load for performance and reliability. Small SSD and USB 3.0 cases for them are very cheap.
 - A domain managed by a domain provider that supports DDNS[^4], 
-- Install `ddclient` (from [its GitHub repository](https://github.com/ddclient/ddclient)) on your machine, 
-- A router that supports NAT and that allow you to expose services at ports `80` and `443`.[^5]
-- A decent internet connection.[^6] 
+- Install `ddclient` (from [its GitHub repository](https://github.com/ddclient/ddclient)) on your machine [^5], 
+- A router that supports NAT and that allow you to expose services at ports `80` and `443`.[^6]
+- A decent internet connection.[^7] 
 
 > 🌱 Preferably, choose a low power device. Don't run Mastodon 24/7 on your forest-burning gaming PC 🌷
 
@@ -73,5 +73,6 @@ And it's **a lot cheaper**.
 [^2]: Mastodon caches a lot of information, including, and especially, pictures and videos from other instances. It will cache media from all the accounts you follow across any instance, and from all the known, but not followed accounts, such as those whose posts appear in your timeline as someone you actually follow boosts them. From all those, it will cache avatars, headers, emojos, and all the attachments of the posts that are *visible* in your timelines. Visible doesn't mean viewed: those resources will be cached in your instance's disk even if you never see them. And I'm sure this doesn't end there, but I am not 100% sure of all the implications of the federation and ActivityPub.
 [^3]: Although [the people around the Raspberry Pi is not very popular at the moment](https://www.buzzfeednews.com/article/chrisstokelwalker/raspberry-pi-hired-ex-cop-mastodon-controversy), the community around these machines is huge and I'm sure many of us will find some at the bottom of a drawer.
 [^4]: I have all my domamins at Cloudflare, who are ethically very slow and tone deaf as well (please suit yourself with a web search engine for this one claim), but very cheap. And in the free tier of Cloudflare, you can update the DNS record for your machine through their API, which is spoken by `ddclient`.
-[^5]: I haven't found any router that wouldn't allow you to do so. Even the provided by the ISPs can be configured in such way (I am using one of those right now).
-[^6]: I am getting very good results with an internet connection that offers 20 Mbps upload speed. This includes not only me accessing information on the go, but also the other instances to find my information quickly: there are posts that get reactions almost immediately after they are published... in those rare cases I publish anything interesting.
+[^5]: Check my configuration (last reviewed at the time of this writing) in this [public Gist](https://gist.github.com/gvisoc/9bc137a7c01a149f5d5e146f1827f211) at my GitHub account.
+[^6]: I haven't found any router that wouldn't allow you to do so. Even the provided by the ISPs can be configured in such way (I am using one of those right now).
+[^7]: I am getting very good results with an internet connection that offers 20 Mbps upload speed. This includes not only me accessing information on the go, but also the other instances to find my information quickly: there are posts that get reactions almost immediately after they are published... in those rare cases I publish anything interesting.
