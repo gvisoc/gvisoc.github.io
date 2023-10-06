@@ -4,6 +4,7 @@ title:  "Cleaning the Terminal Screen While Preserving Last Exit Code"
 date:   2022-06-17 20:20:00 +1000
 categories:
 - linux
+hidden: true
 excerpt_separator: <!--more-->
 ---
 When working on a shell script it's usual to find oneself trying commands in the terminal emulator to capture their behavior. This usually garbles the screen, and sometimes we need to clear it.

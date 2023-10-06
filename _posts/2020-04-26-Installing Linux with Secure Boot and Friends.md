@@ -5,6 +5,7 @@ date:   2020-06-15 10:55:00 +1000
 categories:
   - tech
   - linux
+hidden: true
 excerpt_separator: <!--more-->
 ---
 

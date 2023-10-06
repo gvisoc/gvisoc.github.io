@@ -5,6 +5,7 @@ date:   2021-02-06 16:32:00 +1100
 categories:
   - tech
   - linux
+hidden: true
 excerpt_separator: <!--more-->
 ---
 If you have a Synology NAS and you are a technology enthusiast, or have some interest in using such machines as home servers, you may run into a problem that is quite common. Judging from the amount of Google results, the User Home service gets somehow broken quite often the first time it is activated, and neither is detected by some other services that use it as a dependency, nor can it be deactivated.

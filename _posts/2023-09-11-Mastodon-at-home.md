@@ -4,6 +4,7 @@ title:  "Why do You Want to Install Your Personal Mastodon Instance at Home"
 date:   2023-01-10 15:00:00 +1000
 categories:
 - linux
+hidden: true
 excerpt_separator: <!--more-->
 ---
 **TL;DR**: 

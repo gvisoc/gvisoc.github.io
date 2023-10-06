@@ -5,6 +5,7 @@ date: 2021-02-12 12:24
 categories:
 - Python
 - Git
+hidden: true
 excerpt_separator: <!--more-->
 ---
 Working in a software project, as part of a team, has quite a few challenges. Other than the cultural side of things, timezone differences, remote work, communication tools, and sharing the knowledge across the team members, there are a lot of technical bits that can create a lot of issues and friction at the source code level.
