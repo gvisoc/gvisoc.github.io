@@ -7,7 +7,7 @@ categories:
 - this site
 excerpt_separator: <!--more-->
 ---
-As of 10/05/2021, this site is absolutely free of cookies. There is no tracking of you whatsoever.
+This site is absolutely free of cookies. There is no tracking of you whatsoever.
 
 ![No cookies! Yay!](/assets/no-cookies.png)
 
