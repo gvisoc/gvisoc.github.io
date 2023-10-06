@@ -4,7 +4,7 @@ title:  "This site is up and running"
 date:   2018-04-11 17:29:00 +1000
 categories:
   - this site
-hidden: false
+hidden: true
 excerpt_separator: <!--more-->
 ---
 If you can see this line, then this site is OK. You should also see that it has SSL-enabled. You can check the [about page](/about/) to find out what you can expect of this blog. See you soon!
