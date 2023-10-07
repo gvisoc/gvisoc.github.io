@@ -25,10 +25,10 @@ That was also about a year before connecting to the Internet for the first time:
 In retrospective, I think that connecting to the internet was what that one thing that changed my way of seeing the world.
 
 - With an inexpensive and fast way to have conversations with anyone: the e-mail. The first e-mail I ever sent after the few usual "let's try this!" emails with some friends was to a writer, commenting on a column he wrote weekly on a magazine that came attached to a newspaper, on Sundays. He wrote back in less than a day.
-- Also, with an inexpensive and fast way of discussing solutions to problems and other stuff: the forums and message boards. I was *so* into them. One of the forums I was posting on, @RROBA, belonged to a magazine with the same name, and I was so prolific and respected that they've asked me to write articles for the magazine. Paid articles. To get my articles done, I was exploring the subjects I was studying at college, and writing in a way that was palatable to a much wider audience. I was monetising my labs' assignments. It felt audacions, and I think it really was an audacity. And of 4 articles I wrote, 3 of them made the magazine cover story back in 2003.
+- Also, with an inexpensive and fast way of discussing solutions to problems and other stuff: the forums and message boards. I was *so* into them. One of the forums I was posting on, @RROBA, belonged to a magazine with the same name, and I was so prolific and respected that they've asked me to write articles for the magazine. Paid articles. To get my articles done, I was exploring the subjects I was studying at college, and writing in a way that was palatable to a much wider audience. I was monetising my labs' assignments. It felt audacious, and I think it really was an audacity. And of 4 articles I wrote, 3 of them made the magazine cover story back in 2003.
 - And, most importantly, with an inexpensive way of publishing our thoughts: the possibility of hosting our own website.
 
-First, I started a site in Geocities (still available in the wayback machine!), mainly about my own stuff, and for a very brief period of time, for posting photos. Writing HTML 4 and CSS 2 by hand was A CHORE, so soon I had a couple of sites in Blogger, for roughtly the same kind of content, and later on moved on to Wordpress dot com. 
+First, I started a site in Geocities (still available in the wayback machine!), mainly about my own stuff, and for a very brief period of time, for posting photos. Writing HTML 4 and CSS 2 by hand was A CHORE, so soon I had a couple of sites in Blogger, for the same kind of content, and later on moved on to Wordpress dot com. 
 
 Blogs were the main content source in the early 2000s, and I had *a few*. 
 
@@ -36,7 +36,7 @@ I wrote my own movie reviews, and how great it was to go to a Muse gig in Madrid
  
 And then, social media came. 
 
-At the beginnng it seemed like a good idea: another fast, even faster way, to get into commentary of almost anything. Interactions were more lively, the timeline was some soft of a lottery and we were all pursuing the viral post because the rush of it was amazing. It was more compelling than blogging. Twitter grew on me quickly, and in its beginnings (2007) it was great. Local groups of people were hanging out after work in "Tweets and Beers" to meet each other. To socialise outside of the socialisation site, after the socialising in the socialisation site. Not without the occasional flirting before flirting sites, twitter was another regular in the local pubs. Sharing a beer and some tweeting tricks, like the hashtags. Hashtags were not a thing yet, but somehow there was already an ettiquette for it. There was a world, a lore and a folklore to it. 
+At the beginning it seemed like a good idea: another fast, even faster way, to get into commentary of almost anything. Interactions were more lively, the timeline was some soft of a lottery and we were all pursuing the viral post because the rush of it was amazing. It was more compelling than blogging. Twitter grew on me quickly, and in its beginnings (2007) it was great. Local groups of people were hanging out after work in "Tweets and Beers" to meet each other. To socialise outside of the socialisation site, after socialising in the socialisation site. Not without the occasional flirting before flirting sites, twitter was another regular in the local pubs. Sharing a beer and some tweeting tricks, like the hashtags. Hashtags were not a thing yet, but somehow there was already an ettiquette to it. There was a world, a lore and a folklore to it. 
 
 It was very powerful. It was undeniably great.
 
@@ -48,7 +48,7 @@ Social media sites are attention brokers.
 
 So we stopped blogging. We stopped checking the new posts in our favourite forums. Forums like the @RROBA one dissapeared from the net out of sheer abandonment. Our blogs and our forums were casualties. Victims to social media sites.
 
-Now, thanks to the fact that the people behind it all have been so terribly awful that they can't hold the mask on any longer, many of us are waking up to how much all this sucks, and and moving on. Many are in some form of social media based on the Fediverse, and it feels good. Feels like that time of the Tweets and Beers. Many of us think that the Fediverse is fixing social media. 
+Now, thanks to the fact that the people behind it all have been so terribly awful that they can't hold the mask on any longer, many of us are waking up to how much all this sucks, and moving on. Many are in some form of social media based on the Fediverse, and it feels good. Feels like that time of the Tweets and Beers. Many of us think that the Fediverse is fixing social media. 
 
 But we need to fix the rest of it all, and bring back what we lost.
 
