@@ -3,8 +3,8 @@ layout: post
 title: Python Formatters and Style Checkers
 date: 2021-02-12 12:24
 categories:
-- Python
-- Git
+- python
+- git
 hidden: true
 excerpt_separator: <!--more-->
 ---

@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Linux
+title: GNU/Linux and Linux
 category: linux
 ---

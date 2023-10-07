@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<p>Articles filed under "{{ page.category }}"</p>
+<p>Articles filed under "{{ page.title }}"</p>
 {% assign sortedPosts = site.categories[page.category] | reversed: 'date' %}
 <ul>
 {% for post in sortedPosts %}
