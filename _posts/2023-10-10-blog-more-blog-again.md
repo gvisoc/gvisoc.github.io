@@ -59,5 +59,5 @@ If you can, [don't use cookies and trackers](/privacy/this site/2021/05/12/No-Co
 And, now that you're up to it, sign up in some forums while they can still be found.
 
 ---
-- *You can comment this posting in the fediverse, starting here: *.
-- *Many posts in this blog have been archived. You can access them by exploring the [categories](/categories)*.
+Comment [on this post](https://fedi.gvisoc.com/@gabriel/111193057173867255) on Mastodon
+<center><iframe src="https://fedi.gvisoc.com/@gabriel/111193057173867255/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedi.gvisoc.com/embed.js" async="async"></script></center>
