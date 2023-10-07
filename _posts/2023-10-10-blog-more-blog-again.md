@@ -62,5 +62,5 @@ And, now that you're up to it, sign up in some forums while they can still be fo
 <center> - </center>
 <br/>
 <br/>
-*Comment [on this post](https://fedi.gvisoc.com/@gabriel/111193057173867255) on Mastodon*
+*Comment [on this post](https://fedi.gvisoc.com/@gabriel/111193057173867255) on Mastodon, or write to the email at the bottom of the page*
 <center><iframe src="https://fedi.gvisoc.com/@gabriel/111193057173867255/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedi.gvisoc.com/embed.js" async="async"></script></center>
