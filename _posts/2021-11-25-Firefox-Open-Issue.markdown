@@ -5,6 +5,7 @@ date:   2021-11-25 17:20:00 +1100
 categories:
 - linux
 hidden: true
+permalink: /linux/2021/11/25/Firefox-Open-Issue.html
 excerpt_separator: <!--more-->
 ---
 Firefox is my browser of choice. With the latest versions of the browser and of Gnome, it is not working as expected when clicking a link from another application.

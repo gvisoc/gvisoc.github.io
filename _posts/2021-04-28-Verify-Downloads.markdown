@@ -6,6 +6,7 @@ categories:
 - security
 - linux
 hidden: true
+permalink: /security/linux/2021/04/28/Verify-Downloads.html
 excerpt_separator: <!--more-->
 ---
 

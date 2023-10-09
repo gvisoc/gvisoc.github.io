@@ -5,6 +5,7 @@ date:   2020-12-01 10:02:00 +1100
 categories:
   - privacy
 hidden: true
+permalink: /privacy/2020/12/01/Privacy-and-Anonymity.html
 excerpt_separator: <!--more-->
 ---
 Often confused, anonymity and privacy are undoubtedly different things. They can be combined, for them to act together for your benefit, but they are rather independent. As such, we should never criticise privacy activists for things such as speaking or acting under their true name.

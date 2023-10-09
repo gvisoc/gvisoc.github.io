@@ -7,6 +7,7 @@ categories:
 tags:
 - this site
 - personal
+permalink: /2023/10/07/blog-more-blog-again.html
 excerpt_separator: <!--more-->
 ---
 **They stole the web. And we were instrumental to it.** They did it thanks to us.

@@ -5,6 +5,7 @@ date:   2021-01-29 12:02:00 +1100
 categories:
   - fake news
 hidden: true
+permalink: /fake news/2021/01/29/Disinformation-and-Misinformation.html
 excerpt_separator: <!--more-->
 ---
 I came across a very fine example of how precise language can be.

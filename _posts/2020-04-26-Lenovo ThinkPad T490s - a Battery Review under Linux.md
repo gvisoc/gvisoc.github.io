@@ -6,6 +6,7 @@ categories:
   - tech
   - linux
 hidden: true
+permalink: /tech/linux/2020/04/26/Lenovo-ThinkPad-T490s-a-Battery-Review-under-Linux.html 
 excerpt_separator: <!--more-->
 ---
 It's been a while since I decided to get a new laptop and, finally, the replacement to my MacBook Pro mid-2014 came in the mail last Monday (April 21st, 2020). The selected laptop has been a Lenovo ThinkPad T490s, and I decided to use it entirely with Linux.

@@ -6,6 +6,7 @@ categories:
   - tech
   - linux
 hidden: true
+permalink: /tech/linux/2020/06/15/Installing-Linux-with-Secure-Boot-and-Friends.html
 excerpt_separator: <!--more-->
 ---
 

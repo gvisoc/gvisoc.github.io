@@ -6,6 +6,7 @@ categories:
 - privacy
 - this site
 hidden: true
+permalink: /privacy/this site/2021/05/12/No-Cookies.html
 excerpt_separator: <!--more-->
 ---
 This site is absolutely free of cookies. There is no tracking of you whatsoever.

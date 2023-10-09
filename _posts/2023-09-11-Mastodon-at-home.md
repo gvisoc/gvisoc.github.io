@@ -5,6 +5,7 @@ date:   2023-01-10 15:00:00 +1000
 categories:
 - linux
 hidden: true
+permalink: /linux/2023/01/10/Mastodon-at-home.html
 excerpt_separator: <!--more-->
 ---
 **TL;DR**: 

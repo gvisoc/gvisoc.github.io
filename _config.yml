@@ -43,6 +43,7 @@ defaults:
       type: category
     values:
       layout: "category"
+permalink: /:year/:month/:day/:title
 # Build settings
 markdown: kramdown
 theme: minima

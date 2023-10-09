@@ -7,6 +7,7 @@ hidden: true
 categories:
 - jekyll
 - latex
+permalink: /jekyll/latex/2021/02/09/KLaTeXTest.html
 ---
 This is a test of \\(\KaTeX\\), a way to render $$\LaTeX$$ in a Jekyll blog. It supports inline code, as in the previous sentence, and also block code as shown below.
 
