@@ -7,7 +7,6 @@ categories:
 - this site
 - personal
 - jekyll
-excerpt_separator: <!--more-->
 ---
 When you begin a new [Jekyll][JEKYLL] site with the only intention of writing, you usually begin with the default theme and configuration. With those, the permanent links (*permalinks*) of the posts have the following structure:
 
