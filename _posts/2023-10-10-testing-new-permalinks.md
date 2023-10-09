@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Testing New Permalinks"
-date:   2023-10-10 8:00:00 +1100
+date:   2023-10-10 7:50:00 +1100
 categories:
 - internet
 - this site
