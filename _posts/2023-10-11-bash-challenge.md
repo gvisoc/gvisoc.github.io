@@ -67,8 +67,8 @@ You can check out my answer to the challenge in the forum [here][ANSWER], and al
 <center> - </center>
 <br/>
 <br/>
-*Comment [on this post](https://fedi.gvisoc.com/@gabriel/111213356862010785) on Mastodon, or write to the email at the bottom of the page*
-<center><iframe src="https://fedi.gvisoc.com/@gabriel/111213356862010785/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedi.gvisoc.com/embed.js" async="async"></script></center>
+*Comment [on this post](https://fedi.gvisoc.com/@gabriel/111213465681343718) on Mastodon, or write to the email at the bottom of the page*
+<center><iframe src="https://fedi.gvisoc.com/@gabriel/111213465681343718/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedi.gvisoc.com/embed.js" async="async"></script></center>
 
 [ANSWER]: https://www.linux.org/threads/head-and-tail-trick.47042/post-207400 "My answer to the challenge in the forum"
 [FORUM]: https://www.linux.org "The site linux.org"
