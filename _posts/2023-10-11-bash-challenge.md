@@ -32,7 +32,7 @@ Do this in one line strictly, using only the 'head' and
 '$(command)'.
 ```
 
-**Can you solve it**? I think I did!
+**Can you solve it?** I think I did!
 <!--more-->
 
 I came up with a solution that was sending only one sentence to `bash`, but it was using multi-line editing mode and thus was rejected.
