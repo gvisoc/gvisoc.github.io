@@ -68,7 +68,9 @@ You can check out my answer to the challenge in the forum [here][ANSWER], and al
 
 **EDIT**: A day after posting my solution and the post you're reading, there were [better answers][BEST] posted in the forum thread. 
 
-It's based on the use of a dash to tell a program to get the rest of the command line arguments from the standard input, that is, the output of the command that was piping onto it. I didn't knew about these hyphens, but I will surely use them from now!
+It's based on the use of a trailing dash to tell a program to get the rest of the command line arguments from the standard input, that is, the output of the command that was piping onto it. While it's not a shell construct and it depends on the program itself, it appears to be quite common. 
+
+I didn't knew about these at all. I will surely look for them in the man pages and use them where available!
 
 <button class="collapsible" id="bestsolution">Click here to reveal the code.</button>
 <div class="content" id="bestsolutiondata" markdown="1">
