@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "head | tail: Bash Challenge"
-date:   2023-10-11 10:30:00 +1100
+date:   2023-10-11 20:30:00 +1100
 categories:
 - linux
 excerpt_separator: <!--more-->
