@@ -6,6 +6,8 @@ categories:
 - linux
 excerpt_separator: <!--more-->
 ---
+***EDIT***: *Incorporate a better solution*
+
 I broke my own bash limits this week. 
 
 We were given **the following challenge in a forum**:
@@ -32,7 +34,7 @@ Do this in one line strictly, using only the 'head' and
 '$(command)'.
 ```
 
-**Can you solve it?** I think I did!
+**Can you solve it?** I think I did!, but not with the best solution.
 <!--more-->
 
 I came up with a solution that was sending only one sentence to `bash`, but it was using multi-line editing mode and thus was rejected.
@@ -63,6 +65,25 @@ Aside from that, a bit of checking the manual pages and an understanding on how 
 </div>
 <br/>
 You can check out my answer to the challenge in the forum [here][ANSWER], and also you can consider signing up for that forum at [https://www.linux.org][FORUM] --it's a great site.
+
+**EDIT**: A day after posting my solution and the post you're reading, there were [better answers][BEST] posted in the forum thread. 
+
+It's based on the use of a dash to tell a program to get the rest of the command line arguments from the standard input, that is, the output of the command that was piping onto it. I didn't knew about these hyphens, but I will surely use them from now!
+
+<button class="collapsible" id="bestsolution">Click here to reveal the code.</button>
+<div class="content" id="bestsolutiondata" markdown="1">
+```bash
+tail -c 3 input.txt | head -qc 57 input.txt - | tail -c 5 | head -qc 4 input.txt -
+```
+
+You can see it working:
+```terminal
+[gvisoc@vao Downloads]$ tail -c 3 input.txt | head -qc 57 input.txt - | tail -c 5 | head -qc 4 input.txt -
+DirtyBit[gvisoc@vao Downloads]$
+```
+</div>
+<br/>
+There's always something new to learn from someone with more experience.
 <br/>
 <br/>
 <center> - </center>
@@ -73,3 +94,4 @@ You can check out my answer to the challenge in the forum [here][ANSWER], and al
 
 [ANSWER]: https://www.linux.org/threads/head-and-tail-trick.47042/post-207400 "My answer to the challenge in the forum"
 [FORUM]: https://www.linux.org "The site linux.org"
+[BEST]: https://www.linux.org/threads/head-and-tail-trick.47042/post-207467 "Best answer in my opinion"
