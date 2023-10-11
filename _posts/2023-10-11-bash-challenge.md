@@ -52,7 +52,7 @@ DirtyBit
 [gvisoc@vao Downloads]$
 ```
 </div>
-
+<br/>
 As the explanation can be spoiling the fun, it's also hidden.
 
 <button class="collapsible" id="rationale">Click here to reveal the rationale.</button>
@@ -61,6 +61,7 @@ So the main issue is that the solution to the problem needs to do parallel proce
 
 Aside from that, a bit of checking the manual pages and an understanding on how pipes work for those commands when there are parameters and arguments in the invocations did the trick.
 </div>
+<br/>
 You can check out my answer to the challenge in the forum [here][ANSWER], and also you can consider signing up for that forum at [https://www.linux.org][FORUM] --it's a great site.
 <br/>
 <br/>
