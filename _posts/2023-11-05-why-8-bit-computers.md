@@ -29,7 +29,7 @@ There is a lot of educational value, then, in owning these computers and trying 
 
 That is one of the things I want to get.
 
-The other one is learning to fix them and keeping them in shape, which will be subject for other posts.
+The other one is learning to fix them and keeping them in shape, which I will cover in other posts.
 <center> - </center>
 <br/>
 <br/>
