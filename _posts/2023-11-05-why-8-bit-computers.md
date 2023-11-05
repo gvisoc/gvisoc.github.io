@@ -9,17 +9,17 @@ excerpt_separator: <!--more-->
 ---
 I got a ZX Spectrum +2A a few months before coming to Australia. That was my first computer in 1989, and by 2016 I wanted to get a unit back, so that I could get into some tinkering and old-school gaming and programming.
 
-![A ZX Spectrum +2A](/assets/ZX-Spectrum-+2A.jpg "The picture shows a ZX Spectrum +2A inside a box, semi-covered in bubble wrap. There is a cassette inside a tape recorder, labeled 'DATACORDER', and a cable is also visible to some extent.")
+![A ZX Spectrum +2A][+2A]
 
 However, pretty much the second time I was pulling it off the box, I decided to move countries. I didn't want to risk it and I decided that the Spectrum wasn't going to come with me in the plane, so I gave it to my brother.
 
-And, fast forward to today, I recently got a *similar* unit (a +2, grey case) and a Commodore 64. I am not going to write about them, or post pictures --I have done it [on Mastodon](https://fedi.gvisoc.com/@gabriel/111335521838143442 "A post with two pictures of my Commodore 64")--, but rather about what I want to get from them.
+And, fast forward to today, I recently got a *similar* unit (a +2, grey case) and a Commodore 64. I am not going to write about them, or post pictures --I have done it [on Mastodon][TOOTS]--, but rather about what I want to get from them.
 <!--more-->
 
 With 8-Bit computers, the user must always learn some programming; even for the most basic usage of the computer they would have to deal with a BASIC interpreter to some extent.
 
-![+2A Menu](/assets/ZXSpec2A-Menu.jpg "A TV showing the menu for a Spanish ZX Spectrum +2A"){:width="50%"}![+3 Basic Listing](/assets/+3-basic-listing.png "A BASIC listing to greet my readers! Hi!"){:width="50%"}
-![+3 Result](/assets/+3-basic-result.png "The result of the previous program")
+![+2A Menu][+2AMenu]{:width="50%"}![+3 Basic Listing][+3BASIC]{:width="50%"}
+![+3 Result][+3RESULT]
 
 Nevertheless, a BASIC programmer would hit a wall when trying to emulate the programmers of the best games available: BASIC is not enough for that and Assembly is the way to go. To write programs in Assembly, one has to know the structure of the memory, what positions controlled the screen, the sound chips, and so on. Those things that could be accessed and controlled just by writing numbers in specific positions, would give the programmer all that they needed in order to to achieve their goals. An 8-bit computer programmer, when writing Assembly, *programs the machine*.
 
@@ -33,5 +33,11 @@ The other one is learning to fix them and keeping them in shape, which I will co
 <center> - </center>
 <br/>
 <br/>
-*Comment [on this post](https://fedi.gvisoc.com/@gabriel/111355217173150746/embed) on Mastodon, or write to the email at the bottom of the page*
+*Comment [on this post](https://fedi.gvisoc.com/@gabriel/111355217173150746) on Mastodon, or write to the email at the bottom of the page*
 <center><iframe src="https://fedi.gvisoc.com/@gabriel/111355217173150746/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedi.gvisoc.com/embed.js" async="async"></script></center>
+
+[+2A]: /assets/ZX-Spectrum-+2A.jpg "The picture shows a ZX Spectrum +2A inside a box, semi-covered in bubble wrap. There is a cassette inside a tape recorder, labeled 'DATACORDER', and a cable is also visible to some extent."
+[+2AMenu]: /assets/ZXSpec2A-Menu.jpg "A TV showing the menu for a Spanish ZX Spectrum +2A"
+[+3BASIC]: /assets/+3-basic-listing.png "A BASIC listing to greet my readers! Hi!"
+[+3RESULT]: /assets/+3-basic-result.png "The result of the previous program"
+[TOOTS]: https://fedi.gvisoc.com/@gabriel/111335521838143442 "A post with two pictures of my Commodore 64"
