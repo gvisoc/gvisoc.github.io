@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why 8-Bit Computers"
-date:   2023-10-11 11:00:00 +1100
+date:   2023-11-05 12:05:00 +1100
 image: /assets/ZX-Spectrum-+2A.jpg
 categories:
 - retro
