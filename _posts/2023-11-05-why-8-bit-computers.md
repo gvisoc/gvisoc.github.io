@@ -30,3 +30,8 @@ There is a lot of educational value, then, in owning these computers and trying 
 That is one of the things I want to get.
 
 The other one is learning to fix them and keeping them in shape, which will be subject for other posts.
+<center> - </center>
+<br/>
+<br/>
+*Comment [on this post](https://fedi.gvisoc.com/@gabriel/111355217173150746/embed) on Mastodon, or write to the email at the bottom of the page*
+<center><iframe src="https://fedi.gvisoc.com/@gabriel/111355217173150746/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedi.gvisoc.com/embed.js" async="async"></script></center>
